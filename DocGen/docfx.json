@@ -3,7 +3,12 @@
         {
             "src": [
                 {
-                    "files": [ "Aptivestigate/**.csproj" ],
+                    "files": [
+                        "Aptivestigate/**.csproj",
+                        "Aptivestigate.Log4Net/**.csproj",
+                        "Aptivestigate.NLog/**.csproj",
+                        "Aptivestigate.Serilog/**.csproj"
+                    ],
                     "src": ".."
                 }
             ],
