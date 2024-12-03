@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Aptivestigate.CrashHandler;
 using Aptivestigate.Log4Net;
 using Aptivestigate.Logging;
 using Aptivestigate.NLog;
@@ -35,6 +36,7 @@ namespace Aptivestigate.Demo
             bool isLogForNet = args.Contains("-log4net");
             bool isNLog = args.Contains("-nlog");
             bool isSerilog = args.Contains("-serilog");
+            CrashTools.InstallCrashHandler();
 
             // We need to choose the adapter according to the command line arguments
             BaseLogger logger;
@@ -64,7 +66,7 @@ namespace Aptivestigate.Demo
             LogTools.Fatal(logger, "FATAL ERROR!");
             LogTools.Fatal(logger, "FATAL ERROR: We can't do this! {0}", "Invalid operation.");
             LogTools.Fatal(logger, exc, "FATAL ERROR!");
-            return 0;
+            throw exc;
         }
     }
 }
