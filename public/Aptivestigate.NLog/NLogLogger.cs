@@ -94,9 +94,12 @@ namespace Aptivestigate.NLog
         {
             logConfig = configurator ?? new LoggingConfiguration();
             if (configurator is null)
+            {
                 logConfig.AddTarget("Aptivestigate", new ColoredConsoleTarget());
-            log = LogManager.GetLogger(name);
+                logConfig.AddRule(LogLevel.Info, LogLevel.Fatal, "Aptivestigate");
+            }
             LogManager.Configuration = logConfig;
+            log = LogManager.GetLogger(name);
         }
     }
 }

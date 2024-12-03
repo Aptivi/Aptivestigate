@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Aptivestigate.Demo - Log4Net": {
+      "commandName": "Project",
+      "commandLineArgs": "-log4net"
+    },
+    "Aptivestigate.Demo - NLog": {
+      "commandName": "Project",
+      "commandLineArgs": "-nlog"
+    },
+    "Aptivestigate.Demo - Serilog": {
+      "commandName": "Project",
+      "commandLineArgs": "-serilog"
+    }
+  }
+}

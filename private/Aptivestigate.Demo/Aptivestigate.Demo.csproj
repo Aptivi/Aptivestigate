@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Terminaux" Version="5.4.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\public\Aptivestigate.Log4Net\Aptivestigate.Log4Net.csproj" />
+    <ProjectReference Include="..\..\public\Aptivestigate.NLog\Aptivestigate.NLog.csproj" />
+    <ProjectReference Include="..\..\public\Aptivestigate.Serilog\Aptivestigate.Serilog.csproj" />
+    <ProjectReference Include="..\..\public\Aptivestigate\Aptivestigate.csproj" />
+  </ItemGroup>
+
+</Project>
