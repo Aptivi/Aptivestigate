@@ -15,6 +15,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.CrashHandler.CrashTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.CrashHandler.CrashTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.CrashHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.CrashHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aptivestigate.Log4Net.Log4NetLogger.yml",
       "output": {
         ".html": {

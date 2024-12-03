@@ -1,6 +1,47 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Aptivestigate.CrashHandler
+  name: Aptivestigate.CrashHandler
+  href: api/Aptivestigate.CrashHandler.html
+  commentId: N:Aptivestigate.CrashHandler
+  fullName: Aptivestigate.CrashHandler
+  nameWithType: Aptivestigate.CrashHandler
+- uid: Aptivestigate.CrashHandler.CrashTools
+  name: CrashTools
+  href: api/Aptivestigate.CrashHandler.CrashTools.html
+  commentId: T:Aptivestigate.CrashHandler.CrashTools
+  fullName: Aptivestigate.CrashHandler.CrashTools
+  nameWithType: CrashTools
+- uid: Aptivestigate.CrashHandler.CrashTools.CrashHandling
+  name: CrashHandling
+  href: api/Aptivestigate.CrashHandler.CrashTools.html#Aptivestigate_CrashHandler_CrashTools_CrashHandling
+  commentId: P:Aptivestigate.CrashHandler.CrashTools.CrashHandling
+  fullName: Aptivestigate.CrashHandler.CrashTools.CrashHandling
+  nameWithType: CrashTools.CrashHandling
+- uid: Aptivestigate.CrashHandler.CrashTools.CrashHandling*
+  name: CrashHandling
+  href: api/Aptivestigate.CrashHandler.CrashTools.html#Aptivestigate_CrashHandler_CrashTools_CrashHandling_
+  commentId: Overload:Aptivestigate.CrashHandler.CrashTools.CrashHandling
+  isSpec: "True"
+  fullName: Aptivestigate.CrashHandler.CrashTools.CrashHandling
+  nameWithType: CrashTools.CrashHandling
+- uid: Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler(System.Action{System.UnhandledExceptionEventArgs})
+  name: InstallCrashHandler(Action<UnhandledExceptionEventArgs>?)
+  href: api/Aptivestigate.CrashHandler.CrashTools.html#Aptivestigate_CrashHandler_CrashTools_InstallCrashHandler_System_Action_System_UnhandledExceptionEventArgs__
+  commentId: M:Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler(System.Action{System.UnhandledExceptionEventArgs})
+  name.vb: InstallCrashHandler(Action(Of UnhandledExceptionEventArgs))
+  fullName: Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler(System.Action<System.UnhandledExceptionEventArgs>?)
+  fullName.vb: Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler(System.Action(Of System.UnhandledExceptionEventArgs))
+  nameWithType: CrashTools.InstallCrashHandler(Action<UnhandledExceptionEventArgs>?)
+  nameWithType.vb: CrashTools.InstallCrashHandler(Action(Of UnhandledExceptionEventArgs))
+- uid: Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler*
+  name: InstallCrashHandler
+  href: api/Aptivestigate.CrashHandler.CrashTools.html#Aptivestigate_CrashHandler_CrashTools_InstallCrashHandler_
+  commentId: Overload:Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler
+  isSpec: "True"
+  fullName: Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler
+  nameWithType: CrashTools.InstallCrashHandler
 - uid: Aptivestigate.Log4Net
   name: Aptivestigate.Log4Net
   href: api/Aptivestigate.Log4Net.html

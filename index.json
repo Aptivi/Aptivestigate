@@ -1,4 +1,14 @@
 {
+  "api/Aptivestigate.CrashHandler.CrashTools.html": {
+    "href": "api/Aptivestigate.CrashHandler.CrashTools.html",
+    "title": "Class CrashTools | Aptivestigate API - Aptivi",
+    "keywords": "Class CrashTools Application crash handling tools Inheritance object CrashTools Namespace: Aptivestigate.CrashHandler Assembly: Aptivestigate.dll Syntax public static class CrashTools Properties | Edit this page View Source CrashHandling Whether the crash handler is installed or not Declaration public static bool CrashHandling { get; } Property Value Type Description bool Methods | Edit this page View Source InstallCrashHandler(Action<UnhandledExceptionEventArgs>?) Installs the application crash handler Declaration public static void InstallCrashHandler(Action<UnhandledExceptionEventArgs>? crashHandler = null) Parameters Type Name Description Action<UnhandledExceptionEventArgs> crashHandler Crash handler to use Exceptions Type Condition InvalidOperationException"
+  },
+  "api/Aptivestigate.CrashHandler.html": {
+    "href": "api/Aptivestigate.CrashHandler.html",
+    "title": "Namespace Aptivestigate.CrashHandler | Aptivestigate API - Aptivi",
+    "keywords": "Namespace Aptivestigate.CrashHandler Classes CrashTools Application crash handling tools"
+  },
   "api/Aptivestigate.Log4Net.Log4NetLogger.html": {
     "href": "api/Aptivestigate.Log4Net.Log4NetLogger.html",
     "title": "Class Log4NetLogger | Aptivestigate API - Aptivi",
