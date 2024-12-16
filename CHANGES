@@ -1,4 +1,4 @@
-Aptivestigate is a .NET service management system for Windows (Services), macOS (launchctl), and Linux (systemd and others).
+Aptivestigate is a logging tool and a crash handling tool that allows you to create loggers for your applications easily.
 
 ### Feedback?
 
