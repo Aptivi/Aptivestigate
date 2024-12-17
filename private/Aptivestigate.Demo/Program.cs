@@ -56,6 +56,7 @@ namespace Aptivestigate.Demo
             var exc = new Exception("We really can't do this.");
             LogTools.Debug(logger, "Test message without formatting");
             LogTools.Debug(logger, "Test message with formatting: {0}, {1}", "Hello", "John Smith");
+            LogTools.Debug(logger, "Logging at simulated path {0}", LogTools.GenerateLogFilePath(out _));
             LogTools.Info(logger, "This is an informational message!");
             LogTools.Info(logger, "Saying: {0}, {1}", "Hello", "John Smith");
             LogTools.Warning(logger, "Warning: this may not work properly.");

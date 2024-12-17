@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Aptivestigate.Logging;
 using SpecProbe.Software.Platform;
 using System;
 using System.Diagnostics;
@@ -300,14 +301,17 @@ namespace Aptivestigate.CrashHandler
 
         private static StreamWriter CreateCrashFile(out Guid crashId, bool fatal = false)
         {
-            string dumpFilePath =
-                PlatformHelper.IsOnWindows() ?
-                $"{Environment.GetEnvironmentVariable("LOCALAPPDATA")}\\Aptivi\\Crashes" :
-                $"{Environment.GetEnvironmentVariable("HOME")}/.config/Aptivi/Crashes";
-            string assembly = Assembly.GetEntryAssembly().GetName().Name;
-            crashId = Guid.NewGuid();
-            Directory.CreateDirectory(dumpFilePath);
-            return File.CreateText(Path.Combine(dumpFilePath, $"{(fatal ? "f_" : "")}crash_{assembly}_{DateTimeOffset.Now:yyyyMMddhhmmssfffffff}_{crashId}.txt"));
+            lock (LogTools.genLock)
+            {
+                string dumpFilePath =
+                    PlatformHelper.IsOnWindows() ?
+                    $"{Environment.GetEnvironmentVariable("LOCALAPPDATA")}\\Aptivi\\Crashes" :
+                    $"{Environment.GetEnvironmentVariable("HOME")}/.config/Aptivi/Crashes";
+                string assembly = Assembly.GetEntryAssembly().GetName().Name;
+                crashId = Guid.NewGuid();
+                Directory.CreateDirectory(dumpFilePath);
+                return File.CreateText(Path.Combine(dumpFilePath, $"{(fatal ? "f_" : "")}crash_{assembly}_{DateTimeOffset.Now:yyyyMMddhhmmssfffffff}_{crashId}.txt"));
+            }
         }
     }
 }

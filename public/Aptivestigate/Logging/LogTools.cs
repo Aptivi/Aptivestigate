@@ -17,7 +17,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using SpecProbe.Software.Platform;
 using System;
+using System.IO;
+using System.Reflection;
 
 namespace Aptivestigate.Logging
 {
@@ -26,6 +29,8 @@ namespace Aptivestigate.Logging
     /// </summary>
 	public static class LogTools
     {
+        internal static object genLock = new();
+
         /// <summary>
         /// Adds a message to the debug log
         /// </summary>
@@ -120,5 +125,25 @@ namespace Aptivestigate.Logging
         /// <param name="args">Arguments to format</param>
         public static void Warning(BaseLogger log, Exception ex, string message, params object?[]? args) =>
             log.Warning(ex, message, args);
+
+        /// <summary>
+        /// Generates the log file path
+        /// </summary>
+        /// <param name="logId">[<see langword="out"/>] Output parameter for generated logging ID</param>
+        /// <returns>Full path to the log file</returns>
+        public static string GenerateLogFilePath(out Guid logId)
+        {
+            lock (genLock)
+            {
+                string dumpFilePath =
+                    PlatformHelper.IsOnWindows() ?
+                    $"{Environment.GetEnvironmentVariable("LOCALAPPDATA")}\\Aptivi\\Logs" :
+                    $"{Environment.GetEnvironmentVariable("HOME")}/.config/Aptivi/Logs";
+                string assembly = Assembly.GetEntryAssembly().GetName().Name;
+                logId = Guid.NewGuid();
+                Directory.CreateDirectory(dumpFilePath);
+                return Path.Combine(dumpFilePath, $"log_{assembly}_{DateTimeOffset.Now:yyyyMMddhhmmssfffffff}_{logId}.txt");
+            }
+        }
     }
 }
