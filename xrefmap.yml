@@ -416,6 +416,22 @@ references:
   isSpec: "True"
   fullName: Aptivestigate.Logging.LogTools.Fatal
   nameWithType: LogTools.Fatal
+- uid: Aptivestigate.Logging.LogTools.GenerateLogFilePath(System.Guid@)
+  name: GenerateLogFilePath(out Guid)
+  href: api/Aptivestigate.Logging.LogTools.html#Aptivestigate_Logging_LogTools_GenerateLogFilePath_System_Guid__
+  commentId: M:Aptivestigate.Logging.LogTools.GenerateLogFilePath(System.Guid@)
+  name.vb: GenerateLogFilePath(Guid)
+  fullName: Aptivestigate.Logging.LogTools.GenerateLogFilePath(out System.Guid)
+  fullName.vb: Aptivestigate.Logging.LogTools.GenerateLogFilePath(System.Guid)
+  nameWithType: LogTools.GenerateLogFilePath(out Guid)
+  nameWithType.vb: LogTools.GenerateLogFilePath(Guid)
+- uid: Aptivestigate.Logging.LogTools.GenerateLogFilePath*
+  name: GenerateLogFilePath
+  href: api/Aptivestigate.Logging.LogTools.html#Aptivestigate_Logging_LogTools_GenerateLogFilePath_
+  commentId: Overload:Aptivestigate.Logging.LogTools.GenerateLogFilePath
+  isSpec: "True"
+  fullName: Aptivestigate.Logging.LogTools.GenerateLogFilePath
+  nameWithType: LogTools.GenerateLogFilePath
 - uid: Aptivestigate.Logging.LogTools.Info(Aptivestigate.Logging.BaseLogger,System.Exception,System.String,System.Object[])
   name: Info(BaseLogger, Exception, string, params object?[]?)
   href: api/Aptivestigate.Logging.LogTools.html#Aptivestigate_Logging_LogTools_Info_Aptivestigate_Logging_BaseLogger_System_Exception_System_String_System_Object___
