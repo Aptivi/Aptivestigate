@@ -1,4 +1,12 @@
-Aptivestigate is a logging tool and a crash handling tool that allows you to create loggers for your applications easily.
+Aptivestigate has been updated to make it more powerful.
+
+### Changes
+
+This release contains a variety of changes, including, but not limited to:
+
+- `[+]` Added path generation for loggers
+
+Review the commit history if you want to get a deep insight about the changes.
 
 ### Feedback?
 
