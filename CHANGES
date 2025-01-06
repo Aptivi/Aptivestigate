@@ -1,10 +1,10 @@
-Aptivestigate has been updated to make it more powerful.
+Aptivestigate has been updated to make it even more powerful.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[+]` Added path generation for loggers
+- `[+]` Added path tools
 
 Review the commit history if you want to get a deep insight about the changes.
 
