@@ -21,6 +21,7 @@ using Aptivestigate.CrashHandler;
 using Aptivestigate.Log4Net;
 using Aptivestigate.Logging;
 using Aptivestigate.NLog;
+using Aptivestigate.Paths;
 using Aptivestigate.Serilog;
 using System;
 using System.Linq;
@@ -67,6 +68,14 @@ namespace Aptivestigate.Demo
             LogTools.Fatal(logger, "FATAL ERROR!");
             LogTools.Fatal(logger, "FATAL ERROR: We can't do this! {0}", "Invalid operation.");
             LogTools.Fatal(logger, exc, "FATAL ERROR!");
+
+            // Test log paths
+            var logFiles = LogPathTools.GetLogFiles(LogPath.Logs, "Nitrocid");
+            var crashFiles = LogPathTools.GetLogFiles(LogPath.Crashes, typeof(Program).Assembly);
+            foreach (var logFile in logFiles)
+                LogTools.Info(logger, "Log: {0}", logFile);
+            foreach (var crashFile in crashFiles)
+                LogTools.Warning(logger, "Crash: {0}", crashFile);
             throw exc;
         }
     }

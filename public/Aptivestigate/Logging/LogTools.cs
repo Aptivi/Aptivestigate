@@ -17,7 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
-using SpecProbe.Software.Platform;
+using Aptivestigate.Paths;
 using System;
 using System.IO;
 using System.Reflection;
@@ -135,10 +135,7 @@ namespace Aptivestigate.Logging
         {
             lock (genLock)
             {
-                string dumpFilePath =
-                    PlatformHelper.IsOnWindows() ?
-                    $"{Environment.GetEnvironmentVariable("LOCALAPPDATA")}\\Aptivi\\Logs" :
-                    $"{Environment.GetEnvironmentVariable("HOME")}/.config/Aptivi/Logs";
+                string dumpFilePath = LogPathTools.GetPath(LogPath.Logs);
                 string assembly = Assembly.GetEntryAssembly().GetName().Name;
                 logId = Guid.NewGuid();
                 Directory.CreateDirectory(dumpFilePath);

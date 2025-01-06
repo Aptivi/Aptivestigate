@@ -18,6 +18,7 @@
 //
 
 using Aptivestigate.Logging;
+using Aptivestigate.Paths;
 using SpecProbe.Software.Platform;
 using System;
 using System.Diagnostics;
@@ -303,10 +304,7 @@ namespace Aptivestigate.CrashHandler
         {
             lock (LogTools.genLock)
             {
-                string dumpFilePath =
-                    PlatformHelper.IsOnWindows() ?
-                    $"{Environment.GetEnvironmentVariable("LOCALAPPDATA")}\\Aptivi\\Crashes" :
-                    $"{Environment.GetEnvironmentVariable("HOME")}/.config/Aptivi/Crashes";
+                string dumpFilePath = LogPathTools.GetPath(LogPath.Crashes);
                 string assembly = Assembly.GetEntryAssembly().GetName().Name;
                 crashId = Guid.NewGuid();
                 Directory.CreateDirectory(dumpFilePath);
