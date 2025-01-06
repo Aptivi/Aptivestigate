@@ -638,6 +638,74 @@ references:
   isSpec: "True"
   fullName: Aptivestigate.NLog.NLogLogger.Warning
   nameWithType: NLogLogger.Warning
+- uid: Aptivestigate.Paths
+  name: Aptivestigate.Paths
+  href: api/Aptivestigate.Paths.html
+  commentId: N:Aptivestigate.Paths
+  fullName: Aptivestigate.Paths
+  nameWithType: Aptivestigate.Paths
+- uid: Aptivestigate.Paths.LogPath
+  name: LogPath
+  href: api/Aptivestigate.Paths.LogPath.html
+  commentId: T:Aptivestigate.Paths.LogPath
+  fullName: Aptivestigate.Paths.LogPath
+  nameWithType: LogPath
+- uid: Aptivestigate.Paths.LogPath.Crashes
+  name: Crashes
+  href: api/Aptivestigate.Paths.LogPath.html#Aptivestigate_Paths_LogPath_Crashes
+  commentId: F:Aptivestigate.Paths.LogPath.Crashes
+  fullName: Aptivestigate.Paths.LogPath.Crashes
+  nameWithType: LogPath.Crashes
+- uid: Aptivestigate.Paths.LogPath.Logs
+  name: Logs
+  href: api/Aptivestigate.Paths.LogPath.html#Aptivestigate_Paths_LogPath_Logs
+  commentId: F:Aptivestigate.Paths.LogPath.Logs
+  fullName: Aptivestigate.Paths.LogPath.Logs
+  nameWithType: LogPath.Logs
+- uid: Aptivestigate.Paths.LogPathTools
+  name: LogPathTools
+  href: api/Aptivestigate.Paths.LogPathTools.html
+  commentId: T:Aptivestigate.Paths.LogPathTools
+  fullName: Aptivestigate.Paths.LogPathTools
+  nameWithType: LogPathTools
+- uid: Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath,System.Reflection.Assembly)
+  name: GetLogFiles(LogPath, Assembly?)
+  href: api/Aptivestigate.Paths.LogPathTools.html#Aptivestigate_Paths_LogPathTools_GetLogFiles_Aptivestigate_Paths_LogPath_System_Reflection_Assembly_
+  commentId: M:Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath,System.Reflection.Assembly)
+  name.vb: GetLogFiles(LogPath, Assembly)
+  fullName: Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath, System.Reflection.Assembly?)
+  fullName.vb: Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath, System.Reflection.Assembly)
+  nameWithType: LogPathTools.GetLogFiles(LogPath, Assembly?)
+  nameWithType.vb: LogPathTools.GetLogFiles(LogPath, Assembly)
+- uid: Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath,System.String)
+  name: GetLogFiles(LogPath, string)
+  href: api/Aptivestigate.Paths.LogPathTools.html#Aptivestigate_Paths_LogPathTools_GetLogFiles_Aptivestigate_Paths_LogPath_System_String_
+  commentId: M:Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath,System.String)
+  name.vb: GetLogFiles(LogPath, String)
+  fullName: Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath, string)
+  fullName.vb: Aptivestigate.Paths.LogPathTools.GetLogFiles(Aptivestigate.Paths.LogPath, String)
+  nameWithType: LogPathTools.GetLogFiles(LogPath, string)
+  nameWithType.vb: LogPathTools.GetLogFiles(LogPath, String)
+- uid: Aptivestigate.Paths.LogPathTools.GetLogFiles*
+  name: GetLogFiles
+  href: api/Aptivestigate.Paths.LogPathTools.html#Aptivestigate_Paths_LogPathTools_GetLogFiles_
+  commentId: Overload:Aptivestigate.Paths.LogPathTools.GetLogFiles
+  isSpec: "True"
+  fullName: Aptivestigate.Paths.LogPathTools.GetLogFiles
+  nameWithType: LogPathTools.GetLogFiles
+- uid: Aptivestigate.Paths.LogPathTools.GetPath(Aptivestigate.Paths.LogPath)
+  name: GetPath(LogPath)
+  href: api/Aptivestigate.Paths.LogPathTools.html#Aptivestigate_Paths_LogPathTools_GetPath_Aptivestigate_Paths_LogPath_
+  commentId: M:Aptivestigate.Paths.LogPathTools.GetPath(Aptivestigate.Paths.LogPath)
+  fullName: Aptivestigate.Paths.LogPathTools.GetPath(Aptivestigate.Paths.LogPath)
+  nameWithType: LogPathTools.GetPath(LogPath)
+- uid: Aptivestigate.Paths.LogPathTools.GetPath*
+  name: GetPath
+  href: api/Aptivestigate.Paths.LogPathTools.html#Aptivestigate_Paths_LogPathTools_GetPath_
+  commentId: Overload:Aptivestigate.Paths.LogPathTools.GetPath
+  isSpec: "True"
+  fullName: Aptivestigate.Paths.LogPathTools.GetPath
+  nameWithType: LogPathTools.GetPath
 - uid: Aptivestigate.Serilog
   name: Aptivestigate.Serilog
   href: api/Aptivestigate.Serilog.html

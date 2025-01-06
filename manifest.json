@@ -105,6 +105,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Paths.LogPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Paths.LogPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Paths.LogPathTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Paths.LogPathTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Paths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Paths.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aptivestigate.Serilog.SerilogLogger.yml",
       "output": {
         ".html": {
