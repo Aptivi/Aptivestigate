@@ -12,6 +12,8 @@
         <EnableSourceControlManagerQueries>true</EnableSourceControlManagerQueries>
         <RootPath>$(MSBuildThisFileDirectory)</RootPath>
         <AssemblyOriginatorKeyFile>$(RootPath)\aptivi_snk.snk</AssemblyOriginatorKeyFile>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <IncludeSymbols>True</IncludeSymbols>
         <Deterministic>true</Deterministic>
     </PropertyGroup>
 
