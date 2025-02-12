@@ -136,7 +136,7 @@ namespace Aptivestigate.Logging
             lock (genLock)
             {
                 string dumpFilePath = LogPathTools.GetPath(LogPath.Logs);
-                string assembly = Assembly.GetEntryAssembly().GetName().Name;
+                string assembly = Assembly.GetEntryAssembly()?.GetName()?.Name ?? "Unknown Assembly";
                 logId = Guid.NewGuid();
                 Directory.CreateDirectory(dumpFilePath);
                 return Path.Combine(dumpFilePath, $"log_{assembly}_{DateTimeOffset.Now:yyyyMMddhhmmssfffffff}_{logId}.txt");
