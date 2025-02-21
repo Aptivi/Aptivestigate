@@ -21,7 +21,11 @@
           "relative_path": "api/Aptivestigate.CrashHandler.CrashTools.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.CrashHandler.CrashTools",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.CrashHandler.CrashTools.yml\" sourcestartlinenumber=\"1\">Application crash handling tools</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/Aptivestigate.CrashHandler.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.CrashHandler",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/Aptivestigate.Log4Net.Log4NetLogger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Log4Net.Log4NetLogger",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Log4Net.Log4NetLogger.yml\" sourcestartlinenumber=\"1\">Inherited logger class for Log4Net</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/Aptivestigate.Log4Net.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Log4Net",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/Aptivestigate.Logging.BaseLogger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Logging.BaseLogger",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Logging.BaseLogger.yml\" sourcestartlinenumber=\"1\">Abstract base logger class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/Aptivestigate.Logging.LogTools.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Logging.LogTools",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Logging.LogTools.yml\" sourcestartlinenumber=\"1\">Logging tools</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/Aptivestigate.Logging.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Logging",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/Aptivestigate.NLog.NLogLogger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.NLog.NLogLogger",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.NLog.NLogLogger.yml\" sourcestartlinenumber=\"1\">Inherited logger class for NLog</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/Aptivestigate.NLog.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.NLog",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,11 @@
           "relative_path": "api/Aptivestigate.Paths.LogPath.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Paths.LogPath",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Paths.LogPath.yml\" sourcestartlinenumber=\"1\">Log path enumeration</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -121,7 +161,11 @@
           "relative_path": "api/Aptivestigate.Paths.LogPathTools.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Paths.LogPathTools",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Paths.LogPathTools.yml\" sourcestartlinenumber=\"1\">Log path tools</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -131,7 +175,11 @@
           "relative_path": "api/Aptivestigate.Paths.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Paths",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -141,7 +189,11 @@
           "relative_path": "api/Aptivestigate.Serilog.SerilogLogger.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Serilog.SerilogLogger",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Serilog.SerilogLogger.yml\" sourcestartlinenumber=\"1\">Inherited logger class for Serilog</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -151,7 +203,11 @@
           "relative_path": "api/Aptivestigate.Serilog.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Serilog",
+      "Summary": null
     },
     {
       "type": "Toc",
