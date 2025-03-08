@@ -49,7 +49,7 @@ rm -rf "$ROOTDIR/DocGen/obj"
 checkerror $? "Failed to remove obj folder"
 rm -rf "$ROOTDIR/docs"
 checkerror $? "Failed to remove docs folder"
-mv /tmp/$ksversion-doc.zip .
+mv /tmp/$ksversion-doc.zip "$ROOTDIR/tools"
 checkerror $? "Failed to move archive from temporary folder"
 echo Pack successful.
 exit 0
