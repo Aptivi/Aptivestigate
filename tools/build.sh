@@ -34,7 +34,7 @@ checkerror $? "Failed to download packages"
 # Build
 echo Building...
 "$dotnetpath" build "$ROOTDIR/Aptivestigate.sln" -p:Configuration=$releaseconf ${@:2}
-checkerror $? "Failed to build Aptivestigate"
+checkerror $? "Failed to build"
 
 # Inform success
 echo Build successful.
