@@ -30,7 +30,7 @@ jobs:
           chmod +x tools/*.sh
           make rel-ci
           make doc
-          cd tools ; ./docgen-pack.sh ; cd ..
+          ./tools/docgen-pack.sh
           echo "SUBJECT=$(cat CHANGES.TITLE)" >> "$GITHUB_OUTPUT"
           echo 'BODY<<EOF' >> "$GITHUB_OUTPUT"
           cat CHANGES >> "$GITHUB_OUTPUT"
