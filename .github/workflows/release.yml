@@ -56,4 +56,4 @@ jobs:
       - name: Package Publication
         run: |
           chmod +x tools/*.sh
-          cd tools ; NUGET_APIKEY=${{ secrets.NUGET_APIKEY }} ./push.sh ; cd ..
+          NUGET_APIKEY=${{ secrets.NUGET_APIKEY }} ./tools/push.sh
