@@ -12,16 +12,18 @@ REM Turn off telemetry and logo
 set DOTNET_CLI_TELEMETRY_OPTOUT=1
 set DOTNET_NOLOGO=1
 
+set ROOTDIR=%~dp0\..
+
 :download
 echo Downloading packages...
-"%ProgramFiles%\dotnet\dotnet.exe" restore "..\Aptivestigate.sln" -p:Configuration=%releaseconfig% %buildoptions%
+"%ProgramFiles%\dotnet\dotnet.exe" restore "%ROOTDIR%\Aptivestigate.sln" -p:Configuration=%releaseconfig% %buildoptions%
 if %errorlevel% == 0 goto :build
 echo There was an error trying to download packages (%errorlevel%).
 goto :finished
 
 :build
 echo Building Aptivestigate...
-"%ProgramFiles%\dotnet\dotnet.exe" build "..\Aptivestigate.sln" -p:Configuration=%releaseconfig% %buildoptions%
+"%ProgramFiles%\dotnet\dotnet.exe" build "%ROOTDIR%\Aptivestigate.sln" -p:Configuration=%releaseconfig% %buildoptions%
 if %errorlevel% == 0 goto :success
 echo There was an error trying to build (%errorlevel%).
 goto :finished
