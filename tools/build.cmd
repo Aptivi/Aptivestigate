@@ -22,7 +22,7 @@ echo There was an error trying to download packages (%errorlevel%).
 goto :finished
 
 :build
-echo Building Aptivestigate...
+echo Building...
 "%ProgramFiles%\dotnet\dotnet.exe" build "%ROOTDIR%\Aptivestigate.sln" -p:Configuration=%releaseconfig% %buildoptions%
 if %errorlevel% == 0 goto :success
 echo There was an error trying to build (%errorlevel%).
