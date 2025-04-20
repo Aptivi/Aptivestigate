@@ -1,10 +1,10 @@
-Aptivestigate has been updated to make it even more resilient.
+Aptivestigate has been updated so that it uses the latest version of logging backends.
 
 ### Changes
 
 This release contains a variety of changes, including, but not limited to:
 
-- `[*]` Fixed NRE trying to generate path
+- `[*]` Updated Log4Net and NLog
 
 Review the commit history if you want to get a deep insight about the changes.
 
