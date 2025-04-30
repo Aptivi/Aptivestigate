@@ -15,6 +15,10 @@
     "Aptivestigate.Demo - MS": {
       "commandName": "Project",
       "commandLineArgs": "-ms"
+    },
+    "Aptivestigate.Demo - ZLogger": {
+      "commandName": "Project",
+      "commandLineArgs": "-zlogger"
     }
   }
 }

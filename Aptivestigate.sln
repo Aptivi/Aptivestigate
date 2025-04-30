@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loggers", "Loggers", "{02EA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aptivestigate.Microsoft", "public\Aptivestigate.Microsoft\Aptivestigate.Microsoft.csproj", "{1DAEFEFC-B66D-E352-6FEA-1C936118A490}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aptivestigate.ZLogger", "public\Aptivestigate.ZLogger\Aptivestigate.ZLogger.csproj", "{9536A84B-1BD2-47B8-8057-EAD52D83C360}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +66,10 @@ Global
 		{1DAEFEFC-B66D-E352-6FEA-1C936118A490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DAEFEFC-B66D-E352-6FEA-1C936118A490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DAEFEFC-B66D-E352-6FEA-1C936118A490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9536A84B-1BD2-47B8-8057-EAD52D83C360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9536A84B-1BD2-47B8-8057-EAD52D83C360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9536A84B-1BD2-47B8-8057-EAD52D83C360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9536A84B-1BD2-47B8-8057-EAD52D83C360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{914E3A7C-D59C-4D64-8DAA-58AEB203AB21} = {3ADC90D5-DA7F-4947-976A-84F4979B6FB7}
 		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {FB6A4D8D-4427-49E7-8930-B742261B2CBF}
 		{1DAEFEFC-B66D-E352-6FEA-1C936118A490} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9536A84B-1BD2-47B8-8057-EAD52D83C360} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BCEC568-ABBD-40D6-A912-B72616456578}

@@ -24,6 +24,7 @@ using Aptivestigate.Microsoft;
 using Aptivestigate.NLog;
 using Aptivestigate.Paths;
 using Aptivestigate.Serilog;
+using Aptivestigate.ZLogger;
 using System;
 using System.Linq;
 using Terminaux.Colors.Data;
@@ -39,6 +40,7 @@ namespace Aptivestigate.Demo
             bool isNLog = args.Contains("-nlog");
             bool isSerilog = args.Contains("-serilog");
             bool isMs = args.Contains("-ms");
+            bool isZLogger = args.Contains("-zlogger");
             CrashTools.InstallCrashHandler();
 
             // We need to choose the adapter according to the command line arguments
@@ -51,9 +53,11 @@ namespace Aptivestigate.Demo
                 logger = new SerilogLogger();
             else if (isMs)
                 logger = new MsLogger("Demonstration");
+            else if (isZLogger)
+                logger = new ZeeLogger("Demonstration");
             else
             {
-                TextWriterColor.WriteColor("You need to select one of -log4net, -nlog, -serilog, or -ms flags to test.", ConsoleColors.Red);
+                TextWriterColor.WriteColor("You need to select one of -log4net, -nlog, -serilog, -ms, or -zlogger flags to test.", ConsoleColors.Red);
                 return 1;
             }
 
