@@ -20,6 +20,7 @@
 using Aptivestigate.CrashHandler;
 using Aptivestigate.Log4Net;
 using Aptivestigate.Logging;
+using Aptivestigate.Microsoft;
 using Aptivestigate.NLog;
 using Aptivestigate.Paths;
 using Aptivestigate.Serilog;
@@ -37,6 +38,7 @@ namespace Aptivestigate.Demo
             bool isLogForNet = args.Contains("-log4net");
             bool isNLog = args.Contains("-nlog");
             bool isSerilog = args.Contains("-serilog");
+            bool isMs = args.Contains("-ms");
             CrashTools.InstallCrashHandler();
 
             // We need to choose the adapter according to the command line arguments
@@ -47,9 +49,11 @@ namespace Aptivestigate.Demo
                 logger = new NLogLogger("Demonstration");
             else if (isSerilog)
                 logger = new SerilogLogger();
+            else if (isMs)
+                logger = new MsLogger("Demonstration");
             else
             {
-                TextWriterColor.WriteColor("You need to select one of -log4net, -nlog, or -serilog flags to test.", ConsoleColors.Red);
+                TextWriterColor.WriteColor("You need to select one of -log4net, -nlog, -serilog, or -ms flags to test.", ConsoleColors.Red);
                 return 1;
             }
 

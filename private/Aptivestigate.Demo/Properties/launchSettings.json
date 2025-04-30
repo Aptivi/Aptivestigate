@@ -11,6 +11,10 @@
     "Aptivestigate.Demo - Serilog": {
       "commandName": "Project",
       "commandLineArgs": "-serilog"
+    },
+    "Aptivestigate.Demo - MS": {
+      "commandName": "Project",
+      "commandLineArgs": "-ms"
     }
   }
 }

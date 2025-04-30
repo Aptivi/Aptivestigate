@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\public\Aptivestigate.Log4Net\Aptivestigate.Log4Net.csproj" />
+    <ProjectReference Include="..\..\public\Aptivestigate.Microsoft\Aptivestigate.Microsoft.csproj" />
     <ProjectReference Include="..\..\public\Aptivestigate.NLog\Aptivestigate.NLog.csproj" />
     <ProjectReference Include="..\..\public\Aptivestigate.Serilog\Aptivestigate.Serilog.csproj" />
     <ProjectReference Include="..\..\public\Aptivestigate\Aptivestigate.csproj" />

@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Description>
+      A C# library that gives you easy access to all the loggers for major logging solutions, such as Serilog, NLog, and Log4Net.
+      This package provides a class for Microsoft.Extensions.Logging.
+    </Description>
+    <PackageProjectUrl>https://github.com/Aptivi/Aptivestigate</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Aptivi/Aptivestigate</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>log;logging;logs;free;csharp;visualbasic;tools;library</PackageTags>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>OfficialAppIcon-Aptivestigate-512.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Aptivestigate\OfficialAppIcon-Aptivestigate-512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aptivestigate\Aptivestigate.csproj" />
+  </ItemGroup>
+
+</Project>
