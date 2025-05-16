@@ -79,7 +79,7 @@ pushall() {
     packages=()
     while IFS= read -r pkg; do
         packages+=("$pkg")
-    done < <(find $ROOTDIR -type f -path "*/bin/$releaseconf/*.nupkg")
+    done < <(find "$ROOTDIR" -type f -path "*/bin/$releaseconf/*.nupkg")
     for pkg in "${packages[@]}"; do
         echo "$pkg"
         dotnet nuget push "$pkg" --api-key "$NUGET_APIKEY" --source "$nugetsource"
