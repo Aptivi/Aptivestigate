@@ -139,7 +139,7 @@ namespace Aptivestigate.Logging
                 string assembly = Assembly.GetEntryAssembly()?.GetName()?.Name ?? "Unknown Assembly";
                 logId = Guid.NewGuid();
                 Directory.CreateDirectory(dumpFilePath);
-                return Path.Combine(dumpFilePath, $"log_{assembly}_{DateTimeOffset.Now:yyyyMMddhhmmssfffffff}_{logId}.txt");
+                return Path.Combine(dumpFilePath, $"log_{assembly}_{DateTimeOffset.Now:yyyyMMddHHmmssfffffff}_{logId}.txt");
             }
         }
     }

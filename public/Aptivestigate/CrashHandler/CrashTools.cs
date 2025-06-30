@@ -204,8 +204,8 @@ namespace Aptivestigate.CrashHandler
                 --------------------------- Exception Information --------------------------
 
                 {exception}
-
-                =============================== Crash report ===============================
+                
+                ============================ Fatal crash report ============================
                 """
             );
             crashFileWriter.Close();
@@ -308,7 +308,7 @@ namespace Aptivestigate.CrashHandler
                 string assembly = Assembly.GetEntryAssembly().GetName().Name;
                 crashId = Guid.NewGuid();
                 Directory.CreateDirectory(dumpFilePath);
-                return File.CreateText(Path.Combine(dumpFilePath, $"{(fatal ? "f_" : "")}crash_{assembly}_{DateTimeOffset.Now:yyyyMMddhhmmssfffffff}_{crashId}.txt"));
+                return File.CreateText(Path.Combine(dumpFilePath, $"{(fatal ? "f_" : "")}crash_{assembly}_{DateTimeOffset.Now:yyyyMMddHHmmssfffffff}_{crashId}.txt"));
             }
         }
     }
