@@ -1,0 +1,311 @@
+{
+  "lang": "spa",
+  "name": "Spanish",
+  "cultures": [
+    "es",
+    "es-419",
+    "es-AR",
+    "es-BO",
+    "es-BR",
+    "es-BZ",
+    "es-CL",
+    "es-CO",
+    "es-CR",
+    "es-CU",
+    "es-DO",
+    "es-EC",
+    "es-ES",
+    "es-GQ",
+    "es-GT",
+    "es-HN",
+    "es-MX",
+    "es-NI",
+    "es-PA",
+    "es-PE",
+    "es-PH",
+    "es-PR",
+    "es-PY",
+    "es-SV",
+    "es-US",
+    "es-UY",
+    "es-VE"
+  ],
+  "locs": [
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED",
+      "text": "El controlador de fallos ya está instalado."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH",
+      "text": "FALLO GRAVE DETECTADO"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC",
+      "text": "Disculpe las molestias, pero este programa no puede continuar."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT",
+      "text": "FALLO GRAVE DETECTADO (TRIPLE FALLO)"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE",
+      "text": "Primera oportunidad"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE",
+      "text": "Segunda oportunidad"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH",
+      "text": "FALLO DETECTADO"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH_DESC",
+      "text": "Se ha detectado un problema en la aplicación que debe cerrarse. Escribiendo volcado de memoria..."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER",
+      "text": "Informe de fallo"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC",
+      "text": "A continuación, se muestra el informe de fallos sobre lo que ocurrió en la aplicación mientras realizaba la operación solicitada."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID",
+      "text": "ID del fallo:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME",
+      "text": "Hora del incidente:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER",
+      "text": "Información de la excepción"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING",
+      "text": "Finalización:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT",
+      "text": "Fallo general. Esto puede indicar un problema grave."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER",
+      "text": "Análisis de excepciones"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC",
+      "text": "A continuación, puede ayudarle a averiguar el motivo:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION",
+      "text": "No hay ninguna excepción que analizar."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT",
+      "text": "Recuento de fotogramas:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM",
+      "text": "Número de fotogramas:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD",
+      "text": "Método:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD",
+      "text": "Método estático:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE",
+      "text": "Tipo de método:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE",
+      "text": "Tipo de declaración:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE",
+      "text": "Tipo reflejado:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES",
+      "text": "Atributos:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS",
+      "text": "Indicadores de implementación:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS",
+      "text": "Dirección del método:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME",
+      "text": "Nombre del tipo de parámetro:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE",
+      "text": "Tipo completo del parámetro:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME",
+      "text": "Nombre del parámetro:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS",
+      "text": "Posición (desde 0):"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT",
+      "text": "Contiene el valor predeterminado:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE",
+      "text": "Valor predeterminado:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET",
+      "text": "Desplazamiento de IL:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE",
+      "text": "Base de la imagen nativa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP",
+      "text": "IP de la imagen nativa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET",
+      "text": "Desplazamiento de la imagen nativa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME",
+      "text": "Nombre del archivo:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE",
+      "text": "Número de línea del archivo:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN",
+      "text": "Número de columna del archivo:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER",
+      "text": "Información del tiempo de ejecución"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS",
+      "text": "Sistema operativo:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC",
+      "text": "Descripción del SO:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH",
+      "text": "Arquitectura del SO:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH",
+      "text": "Arquitectura del proceso:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME",
+      "text": "Tiempo de ejecución .NET:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX",
+      "text": "Ejecutando en dotnetfx:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID",
+      "text": "ID genérico del tiempo de ejecución:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID",
+      "text": "ID general del tiempo de ejecución:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER",
+      "text": "Información de la operación"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID",
+      "text": "Ejecutando desde N-KS:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO",
+      "text": "Ejecutando desde Mono:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN",
+      "text": "Ejecutando desde Screen:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX",
+      "text": "Ejecutando desde TMUX:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL",
+      "text": "Ejecutando en WSL:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL",
+      "text": "Ejecutando en MUSL:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID",
+      "text": "Ejecutando En Android:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI",
+      "text": "Ejecutando en GUI:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG",
+      "text": "Ejecutando en X.Org:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND",
+      "text": "Ejecutando en Wayland:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE",
+      "text": "Tipo de terminal:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU",
+      "text": "Emulador de terminal:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH",
+      "text": "SEGUNDO FALLO DETECTADO"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC",
+      "text": "Al escribir el volcado de memoria, encontramos un segundo fallo."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER",
+      "text": "Informe de fallo fatal"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
+      "text": "A continuación, se muestra el informe de fallo fatal sobre lo que ocurrió en la aplicación mientras gestionaba el error."
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",
+      "text": "No se encuentra la ruta del registro."
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED",
+      "text": "No se especifica el ensamblado."
+    }
+  ]
+}

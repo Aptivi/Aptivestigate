@@ -1,0 +1,312 @@
+{
+  "lang": "arb",
+  "name": "Arabic",
+  "cultures": [
+    "ar",
+    "ar-001",
+    "ar-AE",
+    "ar-BH",
+    "ar-DJ",
+    "ar-DZ",
+    "ar-EG",
+    "ar-ER",
+    "ar-IL",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KM",
+    "ar-KW",
+    "ar-LB",
+    "ar-LY",
+    "ar-MA",
+    "ar-MR",
+    "ar-OM",
+    "ar-PS",
+    "ar-QA",
+    "ar-SA",
+    "ar-SD",
+    "ar-SO",
+    "ar-SS",
+    "ar-SY",
+    "ar-TD",
+    "ar-TN",
+    "ar-YE"
+  ],
+  "locs": [
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED",
+      "text": "tama tathbit maealij al'aetal bialfieli."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH",
+      "text": "tama aiktishaf eutal fadih"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC",
+      "text": "naetadhir ean 'ayi 'iizeaj qad yusabibuh hadha albarnamaju, walakin la yumkin alaistimraru."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT",
+      "text": "tama aktishaf eutl fadih (khta thulathi)"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE",
+      "text": "alfursat al'uwlaa"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE",
+      "text": "alfursat althaania"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH",
+      "text": "tama aktishaf eutl"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH_DESC",
+      "text": "tama aiktishaf mushkilat fi altatbiq tatatalab 'iiqaf altashghili. jar kitabat taqrir al'aetali..."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER",
+      "text": "taqrir al'aetal"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC",
+      "text": "fima yali taqrir al'aetal hawl ma hadath fi altatbiq 'athna' tanfidhih lileamaliat almatlubati."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID",
+      "text": "maerif al'aetali:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME",
+      "text": "waqqt alhadithi:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER",
+      "text": "maelumat alaistithna'"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING",
+      "text": "al'iinha'u:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT",
+      "text": "eutil eami. qad yushir hadha 'iilaa mushkilat khatiratin."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER",
+      "text": "tahlil aliastithna'"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC",
+      "text": "qad yusaeiduk ma yali fi maerifat alsabab:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION",
+      "text": "la yujad astithna' liltahlili."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT",
+      "text": "eadad al'iitarati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM",
+      "text": "raqm al'iitari:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD",
+      "text": "altariqatu:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD",
+      "text": "altariqat althaabitatu:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE",
+      "text": "nawe altariqati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE",
+      "text": "nawe al'iielani:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE",
+      "text": "alnawe almuneaksa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES",
+      "text": "alsimatu:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS",
+      "text": "ealamat altanfidhi:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS",
+      "text": "eunwan altariqati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME",
+      "text": "aism nawe almuealimati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE",
+      "text": "alnawe alkamil lilmuealimati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME",
+      "text": "aism almuealimati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS",
+      "text": "almawdie (man 0):"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT",
+      "text": "yahtawi ealaa alqimat aliaftiradiati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE",
+      "text": "alqimat aliaftiradiatu:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET",
+      "text": "'iizahat IL:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE",
+      "text": "qaeidat alsuwrat al'asliati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP",
+      "text": "eunwan IP lilsuwrat al'asliati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET",
+      "text": "'iizahat alsuwrat al'asliati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME",
+      "text": "asm almilafa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE",
+      "text": "raqm satr almilafa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN",
+      "text": "raqm eamud almilafa:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER",
+      "text": "maelumat waqt altashghil"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS",
+      "text": "nizam altashghili:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC",
+      "text": "wasaf nizam altashghili:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH",
+      "text": "bunyat nizam altashghili:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH",
+      "text": "binyat aleamaliati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME",
+      "text": "waqt tashghil .NET:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX",
+      "text": "altashghil ealaa dotnetfx:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID",
+      "text": "merrf waqt altashghil aleami:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID",
+      "text": "merrf waqt altashghil aleami:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER",
+      "text": "maelumat altashghil"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID",
+      "text": "altashghil min N-KS:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO",
+      "text": "altashghil min Mono:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN",
+      "text": "altashghil min Screen:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX",
+      "text": "altashghil min TMUX:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL",
+      "text": "altashghil ealaa WSL:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL",
+      "text": "altashghil ealaa MUSL:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID",
+      "text": "yaemal ealaa 'andruyid:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI",
+      "text": "yaemal ealaa wajihat almustakhdim alrusumiati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG",
+      "text": "yaemal ealaa X.Org:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND",
+      "text": "yaemal ealaa Wayland:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE",
+      "text": "nawe almahatat altarafiati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU",
+      "text": "muhaki almahatat altarafiati:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH",
+      "text": "tama aiktishaf eutl than"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC",
+      "text": "'athna' kitabat tafrigh al'aetal, wajadna etlan thanyan."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER",
+      "text": "taqrir eutal fadih"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
+      "text": "fima yali taqrir aleutal alfadih hawl ma hadath fi altatbiq 'athna' muealajatih lilkhata'a."
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",
+      "text": "lam yatima aleuthur ealaa masar alsijil"
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED",
+      "text": "lam yatima tahdid altajmie"
+    }
+  ]
+}

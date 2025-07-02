@@ -1,0 +1,289 @@
+{
+  "lang": "cnt-T",
+  "name": "Chinese (Traditional)",
+  "cultures": [
+    "zh",
+    "zh-Hant",
+    "zh-Hant-HK",
+    "zh-Hant-MO",
+    "zh-Hant-TW"
+  ],
+  "locs": [
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED",
+      "text": "崩潰處理程序已安裝。"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH",
+      "text": "偵測到嚴重崩潰"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC",
+      "text": "對於造成您的不便，我們深表歉意，但此程式無法繼續運作。"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT",
+      "text": "偵測到嚴重崩潰（三重故障）"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE",
+      "text": "第一次機會"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE",
+      "text": "第二次機會"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH",
+      "text": "偵測到崩潰"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH_DESC",
+      "text": "應用程式中偵測到一個必須關閉的問題。正在寫入崩潰轉儲…"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER",
+      "text": "崩潰報告"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC",
+      "text": "以下是應用程式在執行您要求的操作時發生的崩潰報告。"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID",
+      "text": "崩潰 ID："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME",
+      "text": "事件時間："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER",
+      "text": "異常訊息"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING",
+      "text": "正在終止："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT",
+      "text": "一般故障。這可能表示存在嚴重問題。"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER",
+      "text": "異常分析"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC",
+      "text": "以下內容可能有助於您找出原因："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION",
+      "text": "沒有可供分析的異常。"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT",
+      "text": "幀計數："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM",
+      "text": "幀編號："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD",
+      "text": "方法："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD",
+      "text": "靜態方法："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE",
+      "text": "方法類型："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE",
+      "text": "聲明類型："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE",
+      "text": "反射類型："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES",
+      "text": "屬性："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS",
+      "text": "實現標誌："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS",
+      "text": "方法地址："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME",
+      "text": "參數類型名稱："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE",
+      "text": "參數完整型別："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME",
+      "text": "參數名稱："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS",
+      "text": "位置（從 0 開始）："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT",
+      "text": "包含預設值："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE",
+      "text": "預設值:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET",
+      "text": "IL 偏移量："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE",
+      "text": "原生映像基底："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP",
+      "text": "原生映像 IP："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET",
+      "text": "原生映像偏移量："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME",
+      "text": "檔案名稱："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE",
+      "text": "文件行號："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN",
+      "text": "文件列號："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER",
+      "text": "運行時資訊"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS",
+      "text": "作業系統:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC",
+      "text": "作業系統描述："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH",
+      "text": "作業系統架構："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH",
+      "text": "進程架構："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME",
+      "text": ".NET 執行階段："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX",
+      "text": "在 dotnetfx 上運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID",
+      "text": "通用運行時 ID："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID",
+      "text": "通用運行時 ID："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER",
+      "text": "操作資訊"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID",
+      "text": "從 N-KS 運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO",
+      "text": "從 Mono 運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN",
+      "text": "從 Screen 運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX",
+      "text": "從 TMUX 運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL",
+      "text": "在 WSL 上運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL",
+      "text": "在 MUSL 上運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID",
+      "text": "在 Android 上運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI",
+      "text": "在 GUI 上運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG",
+      "text": "在 X.Org 上運行："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND",
+      "text": "在Wayland："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE",
+      "text": "終端類型："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU",
+      "text": "終端模擬器："
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH",
+      "text": "偵測到第二次崩潰"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC",
+      "text": "在寫入崩潰轉儲時，我們發現了第二次崩潰。"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER",
+      "text": "致命崩潰報告"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
+      "text": "以下是應用程式在處理錯誤時發生的致命崩潰報告。"
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",
+      "text": "未找到日誌路徑"
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED",
+      "text": "未指定程序集"
+    }
+  ]
+}

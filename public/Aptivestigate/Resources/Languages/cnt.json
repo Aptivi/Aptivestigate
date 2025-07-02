@@ -1,0 +1,289 @@
+{
+  "lang": "cnt",
+  "name": "Chinese (Traditional)",
+  "cultures": [
+    "zh",
+    "zh-Hant",
+    "zh-Hant-HK",
+    "zh-Hant-MO",
+    "zh-Hant-TW"
+  ],
+  "locs": [
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED",
+      "text": "Bēngkuì chǔlǐ chéngxù yǐ ānzhuāng."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH",
+      "text": "Zhēn cè dào yánzhòng bēngkuì"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC",
+      "text": "duìyú zàochéng nín de bùbiàn, wǒmen shēn biǎo qiànyì, dàn cǐ chéngshì wúfǎ jìxù yùnzuò."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT",
+      "text": "Zhēn cè dào yánzhòng bēngkuì (sānchóng gùzhàng)"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE",
+      "text": "dì yī cì jīhuì"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE",
+      "text": "dì èr cì jīhuì"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH",
+      "text": "zhēn cè dào bēngkuì"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH_DESC",
+      "text": "yìngyòng chéngshì zhōng zhēn cè dào yīgè bìxū guānbì de wèntí. Zhèngzài xiě rù bēngkuì zhuǎn chǔ…"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER",
+      "text": "bēngkuì bàogào"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC",
+      "text": "yǐxià shì yìngyòng chéngshì zài zhíxíng nín yāoqiú de cāozuò shí fāshēng de bēngkuì bàogào."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID",
+      "text": "Bēngkuì ID:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME",
+      "text": "Shìjiàn shíjiān:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER",
+      "text": "Yìcháng xùnxí"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING",
+      "text": "zhèngzài zhōngzhǐ:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT",
+      "text": "Yībān gùzhàng. Zhè kěnéng biǎoshì cúnzài yánzhòng wèntí."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER",
+      "text": "Yìcháng fēnxī"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC",
+      "text": "yǐxià nèiróng kěnéng yǒu zhù yú nín zhǎo chū yuányīn:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION",
+      "text": "Méiyǒu kě gōng fēnxī de yìcháng."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT",
+      "text": "Zhèng jìshù:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM",
+      "text": "Zhèng biānhào:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD",
+      "text": "Fāngfǎ:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD",
+      "text": "Jìngtài fāngfǎ:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE",
+      "text": "Fāngfǎ lèixíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE",
+      "text": "Shēngmíng lèixíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE",
+      "text": "Fǎnshè lèixíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES",
+      "text": "Shǔxìng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS",
+      "text": "Shíxiàn biāozhì:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS",
+      "text": "Fāngfǎ dìzhǐ:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME",
+      "text": "Cānshù lèixíng míngchēng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE",
+      "text": "Cānshù wánzhěng xíng bié:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME",
+      "text": "Cān shǔ míngchēng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS",
+      "text": "Wèizhì (cóng 0 kāishǐ):"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT",
+      "text": "Bāohán yù shè zhí:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE",
+      "text": "Yù shè zhí:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET",
+      "text": "IL piān yí liàng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE",
+      "text": "Yuánshēng yìngxiàng jīdǐ:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP",
+      "text": "Yuánshēng yìngxiàng IP:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET",
+      "text": "Yuánshēng yìngxiàng piān yí liàng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME",
+      "text": "Dǎng'àn míngchēng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE",
+      "text": "Wénjiàn xíng hào:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN",
+      "text": "Wénjiàn liè hào:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER",
+      "text": "Yùnxíng shí zīxùn"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS",
+      "text": "zuòyè xìtǒng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC",
+      "text": "Zuòyè xìtǒng miáoshù:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH",
+      "text": "Zuòyè xìtǒng jiàgòu:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH",
+      "text": "Jìnchéng jiàgòu:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME",
+      "text": ".NET zhí háng jiēduàn:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX",
+      "text": "Zài dotnetfx shàng yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID",
+      "text": "Tōngyòng yùnxíng shí ID:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID",
+      "text": "Tōngyòng yùnxíng shí ID:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER",
+      "text": "Cāozuò zīxùn"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID",
+      "text": "cóng N-KS yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO",
+      "text": "Cóng Mono yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN",
+      "text": "Cóng Screen yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX",
+      "text": "Cóng TMUX yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL",
+      "text": "Zài WSL shàng yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL",
+      "text": "Zài MUSL shàng yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID",
+      "text": "Zài Android shàng yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI",
+      "text": "Zài GUI shàng yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG",
+      "text": "Zài X.Org shàng yùnxíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND",
+      "text": "Zài Wayland:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE",
+      "text": "Zhōngduān lèixíng:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU",
+      "text": "Zhōngduān mónǐ qì:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH",
+      "text": "Zhēn cè dào dì èr cì bēngkuì"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC",
+      "text": "zài xiě rù bēngkuì zhuǎn chú shí, wǒmen fāxiànle dì èr cì bēngkuì."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER",
+      "text": "Zhìmìng bēngkuì bàogào"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
+      "text": "yǐxià shì yìngyòng chéngshì zài chǔlǐ cuòwù shí fāshēng de zhìmìng bēngkuì bàogào."
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",
+      "text": "Wèi zhǎodào rìzhì lùjìng"
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED",
+      "text": "wèi zhǐdìng chéngxù jí"
+    }
+  ]
+}

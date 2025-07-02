@@ -1,0 +1,287 @@
+{
+  "lang": "kor-T",
+  "name": "Korean",
+  "cultures": [
+    "ko",
+    "ko-KP",
+    "ko-KR"
+  ],
+  "locs": [
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED",
+      "text": "충돌 처리기가 이미 설치되었습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH",
+      "text": "치명적인 충돌 감지됨"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC",
+      "text": "불편을 끼쳐드려 죄송합니다. 이 프로그램을 계속 실행할 수 없습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT",
+      "text": "치명적인 충돌 감지됨(트리플 폴트)"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE",
+      "text": "첫 번째 기회"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE",
+      "text": "두 번째 기회"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH",
+      "text": "충돌 감지됨"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASH_DESC",
+      "text": "애플리케이션에서 종료해야 할 문제가 감지되었습니다. 충돌 덤프를 작성하는 중입니다..."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER",
+      "text": "충돌 보고서"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC",
+      "text": "아래는 요청하신 작업을 수행하는 동안 애플리케이션에서 발생한 상황에 대한 충돌 보고서입니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID",
+      "text": "충돌 ID:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME",
+      "text": "발생 시간:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER",
+      "text": "예외 정보"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING",
+      "text": "종료:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT",
+      "text": "일반적인 오류입니다. 심각한 문제가 발생했음을 나타낼 수 있습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER",
+      "text": "예외 분석"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC",
+      "text": "아래를 통해 원인을 파악할 수 있습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION",
+      "text": "분석할 예외가 없습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT",
+      "text": "프레임 수:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM",
+      "text": "프레임 번호:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD",
+      "text": "메서드:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD",
+      "text": "정적 메서드:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE",
+      "text": "메서드 유형:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE",
+      "text": "선언 유형:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE",
+      "text": "반영된 유형:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES",
+      "text": "속성:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS",
+      "text": "구현 플래그:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS",
+      "text": "메서드 주소:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME",
+      "text": "매개변수 유형 이름:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE",
+      "text": "매개변수 전체 유형:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME",
+      "text": "매개변수 이름:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS",
+      "text": "위치(0부터):"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT",
+      "text": "기본값 포함:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE",
+      "text": "기본값:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET",
+      "text": "IL 오프셋:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE",
+      "text": "네이티브 이미지 기준:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP",
+      "text": "네이티브 이미지 IP:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET",
+      "text": "네이티브 이미지 오프셋:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME",
+      "text": "파일 이름:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE",
+      "text": "파일 줄 번호:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN",
+      "text": "파일 열 번호:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER",
+      "text": "런타임 정보"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS",
+      "text": "운영 체제:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC",
+      "text": "OS 설명:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH",
+      "text": "OS 아키텍처:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH",
+      "text": "프로세스 아키텍처:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME",
+      "text": ".NET 런타임:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX",
+      "text": "dotnetfx에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID",
+      "text": "일반 런타임 ID:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID",
+      "text": "일반 런타임 ID:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER",
+      "text": "작업 정보"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID",
+      "text": "N-KS에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO",
+      "text": "Mono에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN",
+      "text": "Screen에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX",
+      "text": "TMUX에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL",
+      "text": "WSL에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL",
+      "text": "MUSL에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID",
+      "text": "Android에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI",
+      "text": "GUI에서 실행:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG",
+      "text": "에서 실행 X.Org:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND",
+      "text": "Wayland에서 실행 중:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE",
+      "text": "터미널 유형:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU",
+      "text": "터미널 에뮬레이터:"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH",
+      "text": "두 번째 충돌 감지됨"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC",
+      "text": "크래시 덤프를 작성하는 동안 두 번째 충돌을 발견했습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER",
+      "text": "치명적인 충돌 보고서"
+    },
+    {
+      "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
+      "text": "아래는 오류를 처리하는 동안 애플리케이션에서 발생한 상황에 대한 치명적인 충돌 보고서입니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",
+      "text": "로그 경로를 찾을 수 없습니다."
+    },
+    {
+      "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED",
+      "text": "어셈블리가 지정되지 않았습니다."
+    }
+  ]
+}

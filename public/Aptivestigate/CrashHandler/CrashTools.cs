@@ -1,4 +1,4 @@
-﻿//
+//
 // Aptivestigate  Copyright (C) 2024-2025  Aptivi
 //
 // This file is part of Aptivestigate
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Aptivestigate.Languages;
 using Aptivestigate.Logging;
 using Aptivestigate.Paths;
 using SpecProbe.Software.Platform;
@@ -52,7 +53,7 @@ namespace Aptivestigate.CrashHandler
         {
             // Check to see if we already have a handler installed
             if (CrashHandling)
-                throw new InvalidOperationException("The crash handler is already installed.");
+                throw new InvalidOperationException(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED"));
 
             AppDomain.CurrentDomain.UnhandledException += HandleCrash;
             CrashTools.crashHandler = crashHandler;
@@ -95,7 +96,7 @@ namespace Aptivestigate.CrashHandler
                         // We're totally screwed! Bail out!
                         Console.WriteLine("---- FATAL CRASH DETECTED ----");
                         Console.WriteLine();
-                        Console.WriteLine("We apologize for your inconvenience, but this program can't continue.");
+                        Console.WriteLine(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC"));
                         Environment.FailFast(
                             $"""
                             
@@ -119,7 +120,7 @@ namespace Aptivestigate.CrashHandler
         {
             Console.WriteLine("---- CRASH DETECTED ----");
             Console.WriteLine();
-            Console.WriteLine("A problem has been detected in the application that has to shut down. Writing crash dump...");
+            Console.WriteLine(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASH_DESC"));
             
             // Write the crash dump
             using var crashFileWriter = CreateCrashFile(out Guid crashId);
@@ -138,7 +139,7 @@ namespace Aptivestigate.CrashHandler
 
                 Terminating:          {eventArgs.IsTerminating}
 
-                {(isException ? eventArgs.ExceptionObject : "General fault. This may indicate a serious problem.")}
+                {(isException ? eventArgs.ExceptionObject : LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT"))}
                 
                 ---------------------------- Exception Analysis ----------------------------
 
@@ -187,7 +188,7 @@ namespace Aptivestigate.CrashHandler
         {
             Console.WriteLine("---- SECOND CRASH DETECTED ----");
             Console.WriteLine();
-            Console.WriteLine("While writing crash dump, we've found a second crash.");
+            Console.WriteLine(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC"));
 
             // Write the crash dump
             using var crashFileWriter = CreateCrashFile(out Guid crashId, true);
@@ -215,7 +216,7 @@ namespace Aptivestigate.CrashHandler
         {
             // Check the exception
             if (exception is null)
-                return "There is no exception to analyze.";
+                return LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION");
 
             // Now, analyze the exception
             var analysisBuilder = new StringBuilder();

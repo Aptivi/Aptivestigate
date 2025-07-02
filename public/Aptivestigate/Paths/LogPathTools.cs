@@ -1,4 +1,4 @@
-﻿//
+//
 // Aptivestigate  Copyright (C) 2024-2025  Aptivi
 //
 // This file is part of Aptivestigate
@@ -17,6 +17,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using Aptivestigate.Languages;
 using SpecProbe.Software.Platform;
 using System;
 using System.IO;
@@ -37,7 +38,7 @@ namespace Aptivestigate.Paths
         public static string GetPath(LogPath path)
         {
             if (path < 0 || path >= (LogPath)Enum.GetNames(typeof(LogPath)).Length)
-                throw new ArgumentException("The log path is not found", nameof(path));
+                throw new ArgumentException(LanguageTools.GetLocalized("APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND"), nameof(path));
             return GetPath(path.ToString());
         }
 
@@ -52,9 +53,9 @@ namespace Aptivestigate.Paths
         public static string[] GetLogFiles(LogPath path, Assembly? assembly)
         {
             if (assembly is null)
-                throw new ArgumentNullException(nameof(assembly), "The assembly is not specified");
+                throw new ArgumentNullException(nameof(assembly), LanguageTools.GetLocalized("APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED"));
             if (path < 0 || path >= (LogPath)Enum.GetNames(typeof(LogPath)).Length)
-                throw new ArgumentException("The log path is not found", nameof(path));
+                throw new ArgumentException(LanguageTools.GetLocalized("APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND"), nameof(path));
             return GetLogFiles(path, assembly.GetName().Name);
         }
 
@@ -69,9 +70,9 @@ namespace Aptivestigate.Paths
         public static string[] GetLogFiles(LogPath path, string assemblyName)
         {
             if (string.IsNullOrEmpty(assemblyName))
-                throw new ArgumentNullException(nameof(assemblyName), "The assembly is not specified");
+                throw new ArgumentNullException(nameof(assemblyName), LanguageTools.GetLocalized("APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED"));
             if (path < 0 || path >= (LogPath)Enum.GetNames(typeof(LogPath)).Length)
-                throw new ArgumentException("The log path is not found", nameof(path));
+                throw new ArgumentException(LanguageTools.GetLocalized("APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND"), nameof(path));
 
             // Get the required path and filter the log files
             string prefix = GetPrefix(path);
@@ -95,7 +96,7 @@ namespace Aptivestigate.Paths
             {
                 LogPath.Logs => "log_",
                 LogPath.Crashes => "crash_",
-                _ => throw new ArgumentException("The log path is not found", nameof(path)),
+                _ => throw new ArgumentException(LanguageTools.GetLocalized("APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND"), nameof(path)),
             };
         }
     }

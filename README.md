@@ -5,7 +5,7 @@
 <br>
     
 <img
-  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Aptivestigate@main/public/Aptivestigate/OfficialAppIcon-Aptivestigate-512.png'
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/Aptivestigate@main/assets/OfficialAppIcon-Aptivestigate-512.png'
   width = 256
   align = center
 />
