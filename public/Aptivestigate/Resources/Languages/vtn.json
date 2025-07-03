@@ -272,7 +272,7 @@
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
-      "text": "Dưới đây là báo cáo sự cố nghiêm trọng về những gì đã xảy ra trong ứng dụng trong khi\\nit đang xử lý lỗi."
+      "text": "Dưới đây là báo cáo sự cố nghiêm trọng về những gì đã xảy ra trong ứng dụng trong khi\nit đang xử lý lỗi."
     },
     {
       "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",

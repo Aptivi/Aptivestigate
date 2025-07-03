@@ -273,7 +273,7 @@
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
-      "text": "Παρακάτω είναι η αναφορά μοιραίου σφάλματος σχετικά με το τι συνέβη στην εφαρμογή ενώ\\nit χειριζόταν το σφάλμα."
+      "text": "Παρακάτω είναι η αναφορά μοιραίου σφάλματος σχετικά με το τι συνέβη στην εφαρμογή ενώ\nit χειριζόταν το σφάλμα."
     },
     {
       "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",

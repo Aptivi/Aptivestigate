@@ -272,7 +272,7 @@
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
-      "text": "Di bawah ini adalah laporan crash fatal tentang apa yang terjadi di aplikasi saat\\nit menangani kesalahan."
+      "text": "Di bawah ini adalah laporan crash fatal tentang apa yang terjadi di aplikasi saat\nit menangani kesalahan."
     },
     {
       "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",

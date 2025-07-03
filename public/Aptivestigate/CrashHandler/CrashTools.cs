@@ -94,20 +94,20 @@ namespace Aptivestigate.CrashHandler
                     catch (Exception ex3)
                     {
                         // We're totally screwed! Bail out!
-                        Console.WriteLine("---- FATAL CRASH DETECTED ----");
+                        Console.WriteLine("---- " + LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_FATALCRASH") + " ----");
                         Console.WriteLine();
                         Console.WriteLine(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC"));
                         Environment.FailFast(
                             $"""
                             
-                            FATAL CRASH DETECTED (TRIPLE FAULT)
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT")}
                             ===================================
 
-                            First chance
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE")}
                             ------------
                             {ex}
 
-                            Second chance
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE")}
                             -------------
                             {ex2}
                             """, ex3);
@@ -118,7 +118,7 @@ namespace Aptivestigate.CrashHandler
 
         private static void DefaultCrashHandler(UnhandledExceptionEventArgs eventArgs)
         {
-            Console.WriteLine("---- CRASH DETECTED ----");
+            Console.WriteLine("---- " + LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASH") + " ----");
             Console.WriteLine();
             Console.WriteLine(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASH_DESC"));
             
@@ -127,58 +127,57 @@ namespace Aptivestigate.CrashHandler
             bool isException = eventArgs.ExceptionObject is Exception;
             crashFileWriter.WriteLine(
                 $"""
-                =============================== Crash report ===============================
+                ==========> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER")}
 
-                Below is the crash report about what happened in the application while it
-                was performing your requested operation.
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC")}
 
-                Crash ID:             {crashId}
-                Time of incident:     {DateTimeOffset.Now}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID"),-25} {crashId}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME"),-25} {DateTimeOffset.Now}
                 
-                --------------------------- Exception Information --------------------------
-
-                Terminating:          {eventArgs.IsTerminating}
+                -----> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER")}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING"),-25} {eventArgs.IsTerminating}
 
                 {(isException ? eventArgs.ExceptionObject : LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT"))}
                 
-                ---------------------------- Exception Analysis ----------------------------
-
-                Below may help you find out why:
+                -----> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER")}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC")}
 
                 {AnalyzeException(eventArgs.ExceptionObject as Exception)}
-
-                ---------------------------- Runtime Information ---------------------------
-
-                Operating system:     {PlatformHelper.GetPlatform()}
-                OS description:       {RuntimeInformation.OSDescription}
-                OS architecture:      {RuntimeInformation.OSArchitecture}
-                Process architecture: {RuntimeInformation.ProcessArchitecture}
-
-                .NET runtime:         {RuntimeInformation.FrameworkDescription}
-                Running on dotnetfx:  {PlatformHelper.IsDotNetFx()}
-
-                Generic runtime ID:   {PlatformHelper.GetCurrentGenericRid()}
-                General runtime ID:   {PlatformHelper.GetCurrentGenericRid(false)}
                 
-                --------------------------- Operation Information --------------------------
+                -----> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER")}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS"),-25} {PlatformHelper.GetPlatform()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC"),-25} {RuntimeInformation.OSDescription}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH"),-25} {RuntimeInformation.OSArchitecture}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH"),-25} {RuntimeInformation.ProcessArchitecture}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME"),-25} {RuntimeInformation.FrameworkDescription}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX"),-25} {PlatformHelper.IsDotNetFx()}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID"),-25} {PlatformHelper.GetCurrentGenericRid()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID"),-25} {PlatformHelper.GetCurrentGenericRid(false)}
+                
+                -----> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER")}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID"),-25} {PlatformHelper.IsRunningFromNitrocid()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO"),-25} {PlatformHelper.IsRunningFromMono()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN"),-25} {PlatformHelper.IsRunningFromScreen()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX"),-25} {PlatformHelper.IsRunningFromTmux()}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL"),-25} {PlatformHelper.IsOnUnixWsl()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL"),-25} {PlatformHelper.IsOnUnixMusl()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID"),-25} {PlatformHelper.IsOnAndroid()}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI"),-25} {PlatformHelper.IsOnGui()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG"),-25} {PlatformHelper.IsOnX11()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND"),-25} {PlatformHelper.IsOnWayland()}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE"),-25} {PlatformHelper.GetTerminalType()}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU"),-25} {PlatformHelper.GetTerminalEmulator()}
 
-                Running from N-KS:    {PlatformHelper.IsRunningFromNitrocid()}
-                Running from Mono:    {PlatformHelper.IsRunningFromMono()}
-                Running from Screen:  {PlatformHelper.IsRunningFromScreen()}
-                Running from TMUX:    {PlatformHelper.IsRunningFromTmux()}
-
-                Running on WSL:       {PlatformHelper.IsOnUnixWsl()}
-                Running on MUSL:      {PlatformHelper.IsOnUnixMusl()}
-                Running on Android:   {PlatformHelper.IsOnAndroid()}
-
-                Running on GUI:       {PlatformHelper.IsOnGui()}
-                Running on X.Org:     {PlatformHelper.IsOnX11()}
-                Running on Wayland:   {PlatformHelper.IsOnWayland()}
-
-                Terminal type:        {PlatformHelper.GetTerminalType()}
-                Terminal emulator:    {PlatformHelper.GetTerminalEmulator()}
-
-                =============================== Crash report ===============================
+                ==========> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER")}
                 """
             );
             crashFileWriter.Close();
@@ -186,7 +185,7 @@ namespace Aptivestigate.CrashHandler
 
         private static void FatalCrashHandler(Exception exception)
         {
-            Console.WriteLine("---- SECOND CRASH DETECTED ----");
+            Console.WriteLine("---- " + LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_SECONDCRASH") + " ----");
             Console.WriteLine();
             Console.WriteLine(LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC"));
 
@@ -194,19 +193,18 @@ namespace Aptivestigate.CrashHandler
             using var crashFileWriter = CreateCrashFile(out Guid crashId, true);
             crashFileWriter.WriteLine(
                 $"""
-                ============================ Fatal crash report ============================
-
-                Below is the fatal crash report about what happened in the application while
-                it was handling the error.
-
-                Crash ID:             {crashId}
-                Time of incident:     {DateTimeOffset.Now}
+                ==========> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER")}
                 
-                --------------------------- Exception Information --------------------------
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC")}
+                
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID"),-25} {crashId}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME"),-25} {DateTimeOffset.Now}
+                
+                -----> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER")}
 
                 {exception}
                 
-                ============================ Fatal crash report ============================
+                ==========> {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER")}
                 """
             );
             crashFileWriter.Close();
@@ -224,7 +222,7 @@ namespace Aptivestigate.CrashHandler
             var traceFrames = stackTrace.GetFrames();
             analysisBuilder.AppendLine(
                 $"""
-                Frame count:          {stackTrace.FrameCount}
+                {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT"),-25} {stackTrace.FrameCount}
 
                 """
             );
@@ -235,7 +233,7 @@ namespace Aptivestigate.CrashHandler
                     $"""
                     ..............................................
 
-                    Frame number:         {i + 1}/{stackTrace.FrameCount}
+                    {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM"),-25} {i + 1}/{stackTrace.FrameCount}
 
                     """
                 );
@@ -245,26 +243,26 @@ namespace Aptivestigate.CrashHandler
                     var parameters = method.GetParameters();
                     analysisBuilder.AppendLine(
                         $"""
-                        Method:               {method.Name}
-                        Static method:        {method.IsStatic}
-                        Method type:          {method.MemberType}
-                        Declaring type:       {method.DeclaringType}
-                        Reflected type:       {method.ReflectedType}
-                        Attributes:           {method.Attributes}
-                        Implementation flags: {method.MethodImplementationFlags}
-                        Method address:       0x{method.MethodHandle.Value.ToInt64():X2}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD"),-25} {method.Name}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD"),-25} {method.IsStatic}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE"),-25} {method.MemberType}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE"),-25} {method.DeclaringType}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE"),-25} {method.ReflectedType}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES"),-25} {method.Attributes}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS"),-25} {method.MethodImplementationFlags}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS"),-25} 0x{method.MethodHandle.Value.ToInt64():X2}
                         """
                     );
                     foreach (var parameter in parameters)
                     {
                         analysisBuilder.AppendLine(
                             $"""
-                            Parameter type name:  {parameter.ParameterType.Name}
-                            Parameter full type:  {parameter.ParameterType.FullName}
-                            Parameter name:       {parameter.Name}
-                            Position (from 0):    {parameter.Position}
-                            Contains default:     {parameter.HasDefaultValue}
-                            Default value:        {parameter.DefaultValue}
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME"),-25} {parameter.ParameterType.Name}
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE"),-25} {parameter.ParameterType.FullName}
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME"),-25} {parameter.Name}
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS"),-25} {parameter.Position}
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT"),-25} {parameter.HasDefaultValue}
+                            {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE"),-25} {parameter.DefaultValue}
                             """
                         );
                     }
@@ -273,7 +271,7 @@ namespace Aptivestigate.CrashHandler
                 {
                     analysisBuilder.AppendLine(
                         $"""
-                        IL offset:            0x{traceFrame.GetILOffset():X2}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET"),-25} 0x{traceFrame.GetILOffset():X2}
                         """
                     );
                 }
@@ -281,9 +279,9 @@ namespace Aptivestigate.CrashHandler
                 {
                     analysisBuilder.AppendLine(
                         $"""
-                        Native image base:    0x{traceFrame.GetNativeImageBase().ToInt64():X2}
-                        Native image IP:      0x{traceFrame.GetNativeIP().ToInt64():X2}
-                        Native image offset:  0x{traceFrame.GetNativeOffset():X2}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE"),-25} 0x{traceFrame.GetNativeImageBase().ToInt64():X2}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP"),-25} 0x{traceFrame.GetNativeIP().ToInt64():X2}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET"),-25} 0x{traceFrame.GetNativeOffset():X2}
                         """
                     );
                 }
@@ -291,9 +289,9 @@ namespace Aptivestigate.CrashHandler
                 {
                     analysisBuilder.AppendLine(
                         $"""
-                        File name:            {traceFrame.GetFileName()}
-                        File line number:     {traceFrame.GetFileLineNumber()}
-                        File column number:   {traceFrame.GetFileColumnNumber()}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME"),-25} {traceFrame.GetFileName()}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE"),-25} {traceFrame.GetFileLineNumber()}
+                        {LanguageTools.GetLocalized("APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN"),-25} {traceFrame.GetFileColumnNumber()}
                         """
                     );
                 }

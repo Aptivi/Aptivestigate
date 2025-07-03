@@ -273,7 +273,7 @@
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
-      "text": "Aşağıda, uygulamada\\nit hatayı işlerken ne olduğuyla ilgili ölümcül çökme raporu bulunmaktadır."
+      "text": "Aşağıda, uygulamada\nit hatayı işlerken ne olduğuyla ilgili ölümcül çökme raporu bulunmaktadır."
     },
     {
       "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",

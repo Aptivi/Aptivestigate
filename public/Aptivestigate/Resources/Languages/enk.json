@@ -43,7 +43,7 @@
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC",
-      "text": "Below is the crash report about what happened in the application while it\\nwas performing your requested operation."
+      "text": "Below is the crash report about what happened in the application while it\nwas performing your requested operation."
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID",
@@ -271,7 +271,7 @@
     },
     {
       "loc": "APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC",
-      "text": "Below is the fatal crash report about what happened in the application while\\nit was handling the error."
+      "text": "Below is the fatal crash report about what happened in the application while\nit was handling the error."
     },
     {
       "loc": "APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND",
