@@ -41,7 +41,12 @@ namespace Aptivestigate.NLog
         public override void Debug(string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Debug))
-                log.Debug(message, args);
+            {
+                if (args is not null)
+                    log.Debug(message, args);
+                else
+                    log.Debug(message);
+            }
         }
 
         /// <summary>
@@ -53,7 +58,12 @@ namespace Aptivestigate.NLog
         public override void Debug(Exception ex, string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Debug))
-                log.Debug(ex, message, args);
+            {
+                if (args is not null)
+                    log.Debug(ex, message, args);
+                else
+                    log.Debug(ex, message);
+            }
         }
 
         /// <summary>
@@ -64,7 +74,12 @@ namespace Aptivestigate.NLog
         public override void Error(string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Error))
-                log.Error(message, args);
+            {
+                if (args is not null)
+                    log.Error(message, args);
+                else
+                    log.Error(message);
+            }
         }
 
         /// <summary>
@@ -76,7 +91,12 @@ namespace Aptivestigate.NLog
         public override void Error(Exception ex, string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Error))
-                log.Error(ex, message, args);
+            {
+                if (args is not null)
+                    log.Error(ex, message, args);
+                else
+                    log.Error(ex, message);
+            }
         }
 
         /// <summary>
@@ -87,7 +107,12 @@ namespace Aptivestigate.NLog
         public override void Fatal(string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Fatal))
-                log.Fatal(message, args);
+            {
+                if (args is not null)
+                    log.Fatal(message, args);
+                else
+                    log.Fatal(message);
+            }
         }
 
         /// <summary>
@@ -99,7 +124,12 @@ namespace Aptivestigate.NLog
         public override void Fatal(Exception ex, string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Fatal))
-                log.Fatal(ex, message, args);
+            {
+                if (args is not null)
+                    log.Fatal(ex, message, args);
+                else
+                    log.Fatal(ex, message);
+            }
         }
 
         /// <summary>
@@ -110,7 +140,12 @@ namespace Aptivestigate.NLog
         public override void Info(string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Info))
-                log.Info(message, args);
+            {
+                if (args is not null)
+                    log.Info(message, args);
+                else
+                    log.Info(message);
+            }
         }
 
         /// <summary>
@@ -122,7 +157,12 @@ namespace Aptivestigate.NLog
         public override void Info(Exception ex, string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Info))
-                log.Info(ex, message, args);
+            {
+                if (args is not null)
+                    log.Info(ex, message, args);
+                else
+                    log.Info(ex, message);
+            }
         }
 
         /// <summary>
@@ -133,7 +173,12 @@ namespace Aptivestigate.NLog
         public override void Warning(string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Warn))
-                log.Warn(message, args);
+            {
+                if (args is not null)
+                    log.Warn(message, args);
+                else
+                    log.Warn(message);
+            }
         }
 
         /// <summary>
@@ -145,7 +190,12 @@ namespace Aptivestigate.NLog
         public override void Warning(Exception ex, string message, params object?[]? args)
         {
             if (log.IsEnabled(LogLevel.Warn))
-                log.Warn(ex, message, args);
+            {
+                if (args is not null)
+                    log.Warn(ex, message, args);
+                else
+                    log.Warn(ex, message);
+            }
         }
 
         /// <summary>
