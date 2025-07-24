@@ -40,4 +40,3 @@ prepare_job:
           "https://uploads.github.com/repos/Aptivi/Aptivestigate/releases/$id/assets?name=$filename" \
           --data-binary @"$file"
       done
-    - 'NUGET_APIKEY=$NUGET_APIKEY ./tools/push.sh'
