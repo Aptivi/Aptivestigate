@@ -7,6 +7,7 @@ prepare_job:
     - if: $CI_COMMIT_TAG
   script:
     - 'export PATH="$PATH:/root/.dotnet/tools"'
+    - 'curl -sSL "https://raw.githubusercontent.com/upciti/wakemeops/main/assets/install_repository" | sudo bash'
     - 'apt update'
     - 'apt -y install make zip glab'
     - 'dotnet tool install --global docfx'
@@ -15,7 +16,7 @@ prepare_job:
     - './tools/docgen-pack.sh'
     - 'export SUBJECT="$(cat CHANGES.TITLE)"'
     - 'export BODY="$(cat CHANGES)"$''\n\n''"$(sha256sum tools/*.zip | sed -e ''s/^/- /g'')"'
-    - 'glab auth login --hostname $CI_SERVER_HOST --token $CI_JOB_TOKEN'
+    - 'glab auth login --hostname $CI_SERVER_HOST --job-token $CI_JOB_TOKEN'
     - 'glab release create $CI_COMMIT_TAG --name "$SUBJECT" --notes "$BODY"'
     - |
       curl -L \
