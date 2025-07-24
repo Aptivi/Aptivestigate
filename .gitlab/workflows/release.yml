@@ -16,7 +16,6 @@ prepare_job:
     - 'echo "SUBJECT=$(cat CHANGES.TITLE)" >> variables.env'
     - 'export BODY="$(cat CHANGES)"$''\n\n''"$(sha256sum tools/*.zip | sed -e ''s/^/- /g'')"'
     - 'glab release create $CI_COMMIT_TAG --name "$SUBJECT" --notes "$BODY"
-    - 'NUGET_APIKEY=$NUGET_APIKEY ./tools/push.sh'
     - |
       curl -L \
         -X POST \
@@ -41,3 +40,4 @@ prepare_job:
           "https://uploads.github.com/repos/Aptivi/Aptivestigate/releases/$id/assets?name=$filename" \
           --data-binary @"$file"
       done
+    - 'NUGET_APIKEY=$NUGET_APIKEY ./tools/push.sh'
