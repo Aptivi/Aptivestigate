@@ -18,6 +18,7 @@ prepare_job:
     - 'export BODY="$(cat CHANGES)"$''\n\n''"$(sha256sum tools/*.zip | sed -e ''s/^/- /g'')"'
     - 'export COMMITISH=$(git branch --contains $CI_COMMIT_TAG | head -n1 | sed ''s/^[* ] *//'' | sed ''s/^remotes\///'')'
     - 'export RELEASE_JSON="{\"tag_name\":\"$CI_COMMIT_TAG\",\"target_commitish\":\"$COMMITISH\",\"name\":\"$SUBJECT\",\"body\":\"${BODY//$''\n''/\\n}\",\"draft\":false,\"prerelease\":false,\"generate_release_notes\":false}"'
+    - 'echo $COMMITISH $RELEASE_JSON'
     - |
       curl -L \
         -X POST \
@@ -28,7 +29,7 @@ prepare_job:
         -d "$RELEASE_JSON"
     - 'response=$(curl -s https://api.github.com/repos/Aptivi/Aptivestigate/releases/tags/$CI_COMMIT_TAG)'
     - 'eval $(echo "$response" | grep -m 1 "id.:" | grep -w id | tr : = | tr -cd ''[[:alnum:]]='')'
-    - '[ "$id" ] || { echo "Release id for tag $tag not found"; echo "$response\n" >&2; exit 1; }'
+    - '[ "$id" ] || { echo "Release id for tag $CI_COMMIT_TAG not found"; echo "$response\n" >&2; exit 1; }'
     - 'files=(tools/*.zip)'
     - |
       for file in $files; do
