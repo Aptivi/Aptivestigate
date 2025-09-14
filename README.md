@@ -36,7 +36,7 @@
 
 <!----------------------------------------------------------------------------->
 
-[Releases]: https://gitlab.com/aptivi/main/Aptivestigate/-/releases
+[Releases]: https://github.com/Aptivi/Aptivestigate/releases
 [NuGet]: https://www.nuget.org/packages/Aptivestigate/
 
 [Libraries]: https://aptivi.gitbook.io/Aptivestigate-manual/project-dependencies
