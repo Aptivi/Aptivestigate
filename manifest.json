@@ -43,6 +43,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Localized.LocalStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Localized.LocalStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Localized.LocalStrings",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Localized.LocalStrings.yml\" sourcestartlinenumber=\"1\">Localized string tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Localized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Localized.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Localized",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Log4Net.Localized.LocalStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Log4Net.Localized.LocalStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Log4Net.Localized.LocalStrings",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Log4Net.Localized.LocalStrings.yml\" sourcestartlinenumber=\"1\">Localized string tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Log4Net.Localized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Log4Net.Localized.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Log4Net.Localized",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aptivestigate.Log4Net.Log4NetLogger.yml",
       "output": {
         ".html": {
@@ -109,6 +165,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Aptivestigate.Logging",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.NLog.Localized.LocalStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.NLog.Localized.LocalStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.NLog.Localized.LocalStrings",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.NLog.Localized.LocalStrings.yml\" sourcestartlinenumber=\"1\">Localized string tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.NLog.Localized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.NLog.Localized.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.NLog.Localized",
       "Summary": null
     },
     {
@@ -183,6 +267,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Serilog.Localized.LocalStrings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Serilog.Localized.LocalStrings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Serilog.Localized.LocalStrings",
+      "Summary": "<p sourcefile=\"api/Aptivestigate.Serilog.Localized.LocalStrings.yml\" sourcestartlinenumber=\"1\">Localized string tools</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aptivestigate.Serilog.Localized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aptivestigate.Serilog.Localized.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Aptivestigate.Serilog.Localized",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Aptivestigate.Serilog.SerilogLogger.yml",
       "output": {
         ".html": {
@@ -213,11 +325,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -236,11 +348,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

@@ -42,12 +42,216 @@ references:
   isSpec: "True"
   fullName: Aptivestigate.CrashHandler.CrashTools.InstallCrashHandler
   nameWithType: CrashTools.InstallCrashHandler
+- uid: Aptivestigate.Localized
+  name: Aptivestigate.Localized
+  href: api/Aptivestigate.Localized.html
+  commentId: N:Aptivestigate.Localized
+  fullName: Aptivestigate.Localized
+  nameWithType: Aptivestigate.Localized
+- uid: Aptivestigate.Localized.LocalStrings
+  name: LocalStrings
+  href: api/Aptivestigate.Localized.LocalStrings.html
+  commentId: T:Aptivestigate.Localized.LocalStrings
+  fullName: Aptivestigate.Localized.LocalStrings
+  nameWithType: LocalStrings
+- uid: Aptivestigate.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name: CheckCulture(string, string)
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_CheckCulture_System_String_System_String_
+  commentId: M:Aptivestigate.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name.vb: CheckCulture(String, String)
+  fullName: Aptivestigate.Localized.LocalStrings.CheckCulture(string, string)
+  fullName.vb: Aptivestigate.Localized.LocalStrings.CheckCulture(String, String)
+  nameWithType: LocalStrings.CheckCulture(string, string)
+  nameWithType.vb: LocalStrings.CheckCulture(String, String)
+- uid: Aptivestigate.Localized.LocalStrings.CheckCulture*
+  name: CheckCulture
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_CheckCulture_
+  commentId: Overload:Aptivestigate.Localized.LocalStrings.CheckCulture
+  isSpec: "True"
+  fullName: Aptivestigate.Localized.LocalStrings.CheckCulture
+  nameWithType: LocalStrings.CheckCulture
+- uid: Aptivestigate.Localized.LocalStrings.Exists(System.String,System.String)
+  name: Exists(string, string)
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Exists_System_String_System_String_
+  commentId: M:Aptivestigate.Localized.LocalStrings.Exists(System.String,System.String)
+  name.vb: Exists(String, String)
+  fullName: Aptivestigate.Localized.LocalStrings.Exists(string, string)
+  fullName.vb: Aptivestigate.Localized.LocalStrings.Exists(String, String)
+  nameWithType: LocalStrings.Exists(string, string)
+  nameWithType.vb: LocalStrings.Exists(String, String)
+- uid: Aptivestigate.Localized.LocalStrings.Exists*
+  name: Exists
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Exists_
+  commentId: Overload:Aptivestigate.Localized.LocalStrings.Exists
+  isSpec: "True"
+  fullName: Aptivestigate.Localized.LocalStrings.Exists
+  nameWithType: LocalStrings.Exists
+- uid: Aptivestigate.Localized.LocalStrings.Languages
+  name: Languages
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Languages
+  commentId: P:Aptivestigate.Localized.LocalStrings.Languages
+  fullName: Aptivestigate.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.Localized.LocalStrings.Languages*
+  name: Languages
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Languages_
+  commentId: Overload:Aptivestigate.Localized.LocalStrings.Languages
+  isSpec: "True"
+  fullName: Aptivestigate.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name: ListLanguagesCulture(string)
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_ListLanguagesCulture_System_String_
+  commentId: M:Aptivestigate.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name.vb: ListLanguagesCulture(String)
+  fullName: Aptivestigate.Localized.LocalStrings.ListLanguagesCulture(string)
+  fullName.vb: Aptivestigate.Localized.LocalStrings.ListLanguagesCulture(String)
+  nameWithType: LocalStrings.ListLanguagesCulture(string)
+  nameWithType.vb: LocalStrings.ListLanguagesCulture(String)
+- uid: Aptivestigate.Localized.LocalStrings.ListLanguagesCulture*
+  name: ListLanguagesCulture
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_ListLanguagesCulture_
+  commentId: Overload:Aptivestigate.Localized.LocalStrings.ListLanguagesCulture
+  isSpec: "True"
+  fullName: Aptivestigate.Localized.LocalStrings.ListLanguagesCulture
+  nameWithType: LocalStrings.ListLanguagesCulture
+- uid: Aptivestigate.Localized.LocalStrings.Localizations
+  name: Localizations
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Localizations
+  commentId: P:Aptivestigate.Localized.LocalStrings.Localizations
+  fullName: Aptivestigate.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.Localized.LocalStrings.Localizations*
+  name: Localizations
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Localizations_
+  commentId: Overload:Aptivestigate.Localized.LocalStrings.Localizations
+  isSpec: "True"
+  fullName: Aptivestigate.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.Localized.LocalStrings.Translate(System.String,System.String)
+  name: Translate(string, string)
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Translate_System_String_System_String_
+  commentId: M:Aptivestigate.Localized.LocalStrings.Translate(System.String,System.String)
+  name.vb: Translate(String, String)
+  fullName: Aptivestigate.Localized.LocalStrings.Translate(string, string)
+  fullName.vb: Aptivestigate.Localized.LocalStrings.Translate(String, String)
+  nameWithType: LocalStrings.Translate(string, string)
+  nameWithType.vb: LocalStrings.Translate(String, String)
+- uid: Aptivestigate.Localized.LocalStrings.Translate*
+  name: Translate
+  href: api/Aptivestigate.Localized.LocalStrings.html#Aptivestigate_Localized_LocalStrings_Translate_
+  commentId: Overload:Aptivestigate.Localized.LocalStrings.Translate
+  isSpec: "True"
+  fullName: Aptivestigate.Localized.LocalStrings.Translate
+  nameWithType: LocalStrings.Translate
 - uid: Aptivestigate.Log4Net
   name: Aptivestigate.Log4Net
   href: api/Aptivestigate.Log4Net.html
   commentId: N:Aptivestigate.Log4Net
   fullName: Aptivestigate.Log4Net
   nameWithType: Aptivestigate.Log4Net
+- uid: Aptivestigate.Log4Net.Localized
+  name: Aptivestigate.Log4Net.Localized
+  href: api/Aptivestigate.Log4Net.Localized.html
+  commentId: N:Aptivestigate.Log4Net.Localized
+  fullName: Aptivestigate.Log4Net.Localized
+  nameWithType: Aptivestigate.Log4Net.Localized
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings
+  name: LocalStrings
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html
+  commentId: T:Aptivestigate.Log4Net.Localized.LocalStrings
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings
+  nameWithType: LocalStrings
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name: CheckCulture(string, string)
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_CheckCulture_System_String_System_String_
+  commentId: M:Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name.vb: CheckCulture(String, String)
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture(string, string)
+  fullName.vb: Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture(String, String)
+  nameWithType: LocalStrings.CheckCulture(string, string)
+  nameWithType.vb: LocalStrings.CheckCulture(String, String)
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture*
+  name: CheckCulture
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_CheckCulture_
+  commentId: Overload:Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture
+  isSpec: "True"
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.CheckCulture
+  nameWithType: LocalStrings.CheckCulture
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Exists(System.String,System.String)
+  name: Exists(string, string)
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Exists_System_String_System_String_
+  commentId: M:Aptivestigate.Log4Net.Localized.LocalStrings.Exists(System.String,System.String)
+  name.vb: Exists(String, String)
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Exists(string, string)
+  fullName.vb: Aptivestigate.Log4Net.Localized.LocalStrings.Exists(String, String)
+  nameWithType: LocalStrings.Exists(string, string)
+  nameWithType.vb: LocalStrings.Exists(String, String)
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Exists*
+  name: Exists
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Exists_
+  commentId: Overload:Aptivestigate.Log4Net.Localized.LocalStrings.Exists
+  isSpec: "True"
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Exists
+  nameWithType: LocalStrings.Exists
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Languages
+  name: Languages
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Languages
+  commentId: P:Aptivestigate.Log4Net.Localized.LocalStrings.Languages
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Languages*
+  name: Languages
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Languages_
+  commentId: Overload:Aptivestigate.Log4Net.Localized.LocalStrings.Languages
+  isSpec: "True"
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name: ListLanguagesCulture(string)
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_ListLanguagesCulture_System_String_
+  commentId: M:Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name.vb: ListLanguagesCulture(String)
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture(string)
+  fullName.vb: Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture(String)
+  nameWithType: LocalStrings.ListLanguagesCulture(string)
+  nameWithType.vb: LocalStrings.ListLanguagesCulture(String)
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture*
+  name: ListLanguagesCulture
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_ListLanguagesCulture_
+  commentId: Overload:Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture
+  isSpec: "True"
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.ListLanguagesCulture
+  nameWithType: LocalStrings.ListLanguagesCulture
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Localizations
+  name: Localizations
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Localizations
+  commentId: P:Aptivestigate.Log4Net.Localized.LocalStrings.Localizations
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Localizations*
+  name: Localizations
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Localizations_
+  commentId: Overload:Aptivestigate.Log4Net.Localized.LocalStrings.Localizations
+  isSpec: "True"
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Translate(System.String,System.String)
+  name: Translate(string, string)
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Translate_System_String_System_String_
+  commentId: M:Aptivestigate.Log4Net.Localized.LocalStrings.Translate(System.String,System.String)
+  name.vb: Translate(String, String)
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Translate(string, string)
+  fullName.vb: Aptivestigate.Log4Net.Localized.LocalStrings.Translate(String, String)
+  nameWithType: LocalStrings.Translate(string, string)
+  nameWithType.vb: LocalStrings.Translate(String, String)
+- uid: Aptivestigate.Log4Net.Localized.LocalStrings.Translate*
+  name: Translate
+  href: api/Aptivestigate.Log4Net.Localized.LocalStrings.html#Aptivestigate_Log4Net_Localized_LocalStrings_Translate_
+  commentId: Overload:Aptivestigate.Log4Net.Localized.LocalStrings.Translate
+  isSpec: "True"
+  fullName: Aptivestigate.Log4Net.Localized.LocalStrings.Translate
+  nameWithType: LocalStrings.Translate
 - uid: Aptivestigate.Log4Net.Log4NetLogger
   name: Log4NetLogger
   href: api/Aptivestigate.Log4Net.Log4NetLogger.html
@@ -488,6 +692,108 @@ references:
   commentId: N:Aptivestigate.NLog
   fullName: Aptivestigate.NLog
   nameWithType: Aptivestigate.NLog
+- uid: Aptivestigate.NLog.Localized
+  name: Aptivestigate.NLog.Localized
+  href: api/Aptivestigate.NLog.Localized.html
+  commentId: N:Aptivestigate.NLog.Localized
+  fullName: Aptivestigate.NLog.Localized
+  nameWithType: Aptivestigate.NLog.Localized
+- uid: Aptivestigate.NLog.Localized.LocalStrings
+  name: LocalStrings
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html
+  commentId: T:Aptivestigate.NLog.Localized.LocalStrings
+  fullName: Aptivestigate.NLog.Localized.LocalStrings
+  nameWithType: LocalStrings
+- uid: Aptivestigate.NLog.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name: CheckCulture(string, string)
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_CheckCulture_System_String_System_String_
+  commentId: M:Aptivestigate.NLog.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name.vb: CheckCulture(String, String)
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.CheckCulture(string, string)
+  fullName.vb: Aptivestigate.NLog.Localized.LocalStrings.CheckCulture(String, String)
+  nameWithType: LocalStrings.CheckCulture(string, string)
+  nameWithType.vb: LocalStrings.CheckCulture(String, String)
+- uid: Aptivestigate.NLog.Localized.LocalStrings.CheckCulture*
+  name: CheckCulture
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_CheckCulture_
+  commentId: Overload:Aptivestigate.NLog.Localized.LocalStrings.CheckCulture
+  isSpec: "True"
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.CheckCulture
+  nameWithType: LocalStrings.CheckCulture
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Exists(System.String,System.String)
+  name: Exists(string, string)
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Exists_System_String_System_String_
+  commentId: M:Aptivestigate.NLog.Localized.LocalStrings.Exists(System.String,System.String)
+  name.vb: Exists(String, String)
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Exists(string, string)
+  fullName.vb: Aptivestigate.NLog.Localized.LocalStrings.Exists(String, String)
+  nameWithType: LocalStrings.Exists(string, string)
+  nameWithType.vb: LocalStrings.Exists(String, String)
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Exists*
+  name: Exists
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Exists_
+  commentId: Overload:Aptivestigate.NLog.Localized.LocalStrings.Exists
+  isSpec: "True"
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Exists
+  nameWithType: LocalStrings.Exists
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Languages
+  name: Languages
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Languages
+  commentId: P:Aptivestigate.NLog.Localized.LocalStrings.Languages
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Languages*
+  name: Languages
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Languages_
+  commentId: Overload:Aptivestigate.NLog.Localized.LocalStrings.Languages
+  isSpec: "True"
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name: ListLanguagesCulture(string)
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_ListLanguagesCulture_System_String_
+  commentId: M:Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name.vb: ListLanguagesCulture(String)
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture(string)
+  fullName.vb: Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture(String)
+  nameWithType: LocalStrings.ListLanguagesCulture(string)
+  nameWithType.vb: LocalStrings.ListLanguagesCulture(String)
+- uid: Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture*
+  name: ListLanguagesCulture
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_ListLanguagesCulture_
+  commentId: Overload:Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture
+  isSpec: "True"
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.ListLanguagesCulture
+  nameWithType: LocalStrings.ListLanguagesCulture
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Localizations
+  name: Localizations
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Localizations
+  commentId: P:Aptivestigate.NLog.Localized.LocalStrings.Localizations
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Localizations*
+  name: Localizations
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Localizations_
+  commentId: Overload:Aptivestigate.NLog.Localized.LocalStrings.Localizations
+  isSpec: "True"
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Translate(System.String,System.String)
+  name: Translate(string, string)
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Translate_System_String_System_String_
+  commentId: M:Aptivestigate.NLog.Localized.LocalStrings.Translate(System.String,System.String)
+  name.vb: Translate(String, String)
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Translate(string, string)
+  fullName.vb: Aptivestigate.NLog.Localized.LocalStrings.Translate(String, String)
+  nameWithType: LocalStrings.Translate(string, string)
+  nameWithType.vb: LocalStrings.Translate(String, String)
+- uid: Aptivestigate.NLog.Localized.LocalStrings.Translate*
+  name: Translate
+  href: api/Aptivestigate.NLog.Localized.LocalStrings.html#Aptivestigate_NLog_Localized_LocalStrings_Translate_
+  commentId: Overload:Aptivestigate.NLog.Localized.LocalStrings.Translate
+  isSpec: "True"
+  fullName: Aptivestigate.NLog.Localized.LocalStrings.Translate
+  nameWithType: LocalStrings.Translate
 - uid: Aptivestigate.NLog.NLogLogger
   name: NLogLogger
   href: api/Aptivestigate.NLog.NLogLogger.html
@@ -712,6 +1018,108 @@ references:
   commentId: N:Aptivestigate.Serilog
   fullName: Aptivestigate.Serilog
   nameWithType: Aptivestigate.Serilog
+- uid: Aptivestigate.Serilog.Localized
+  name: Aptivestigate.Serilog.Localized
+  href: api/Aptivestigate.Serilog.Localized.html
+  commentId: N:Aptivestigate.Serilog.Localized
+  fullName: Aptivestigate.Serilog.Localized
+  nameWithType: Aptivestigate.Serilog.Localized
+- uid: Aptivestigate.Serilog.Localized.LocalStrings
+  name: LocalStrings
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html
+  commentId: T:Aptivestigate.Serilog.Localized.LocalStrings
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings
+  nameWithType: LocalStrings
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name: CheckCulture(string, string)
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_CheckCulture_System_String_System_String_
+  commentId: M:Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture(System.String,System.String)
+  name.vb: CheckCulture(String, String)
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture(string, string)
+  fullName.vb: Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture(String, String)
+  nameWithType: LocalStrings.CheckCulture(string, string)
+  nameWithType.vb: LocalStrings.CheckCulture(String, String)
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture*
+  name: CheckCulture
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_CheckCulture_
+  commentId: Overload:Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture
+  isSpec: "True"
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.CheckCulture
+  nameWithType: LocalStrings.CheckCulture
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Exists(System.String,System.String)
+  name: Exists(string, string)
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Exists_System_String_System_String_
+  commentId: M:Aptivestigate.Serilog.Localized.LocalStrings.Exists(System.String,System.String)
+  name.vb: Exists(String, String)
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Exists(string, string)
+  fullName.vb: Aptivestigate.Serilog.Localized.LocalStrings.Exists(String, String)
+  nameWithType: LocalStrings.Exists(string, string)
+  nameWithType.vb: LocalStrings.Exists(String, String)
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Exists*
+  name: Exists
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Exists_
+  commentId: Overload:Aptivestigate.Serilog.Localized.LocalStrings.Exists
+  isSpec: "True"
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Exists
+  nameWithType: LocalStrings.Exists
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Languages
+  name: Languages
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Languages
+  commentId: P:Aptivestigate.Serilog.Localized.LocalStrings.Languages
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Languages*
+  name: Languages
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Languages_
+  commentId: Overload:Aptivestigate.Serilog.Localized.LocalStrings.Languages
+  isSpec: "True"
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Languages
+  nameWithType: LocalStrings.Languages
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name: ListLanguagesCulture(string)
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_ListLanguagesCulture_System_String_
+  commentId: M:Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture(System.String)
+  name.vb: ListLanguagesCulture(String)
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture(string)
+  fullName.vb: Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture(String)
+  nameWithType: LocalStrings.ListLanguagesCulture(string)
+  nameWithType.vb: LocalStrings.ListLanguagesCulture(String)
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture*
+  name: ListLanguagesCulture
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_ListLanguagesCulture_
+  commentId: Overload:Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture
+  isSpec: "True"
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.ListLanguagesCulture
+  nameWithType: LocalStrings.ListLanguagesCulture
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Localizations
+  name: Localizations
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Localizations
+  commentId: P:Aptivestigate.Serilog.Localized.LocalStrings.Localizations
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Localizations*
+  name: Localizations
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Localizations_
+  commentId: Overload:Aptivestigate.Serilog.Localized.LocalStrings.Localizations
+  isSpec: "True"
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Localizations
+  nameWithType: LocalStrings.Localizations
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Translate(System.String,System.String)
+  name: Translate(string, string)
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Translate_System_String_System_String_
+  commentId: M:Aptivestigate.Serilog.Localized.LocalStrings.Translate(System.String,System.String)
+  name.vb: Translate(String, String)
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Translate(string, string)
+  fullName.vb: Aptivestigate.Serilog.Localized.LocalStrings.Translate(String, String)
+  nameWithType: LocalStrings.Translate(string, string)
+  nameWithType.vb: LocalStrings.Translate(String, String)
+- uid: Aptivestigate.Serilog.Localized.LocalStrings.Translate*
+  name: Translate
+  href: api/Aptivestigate.Serilog.Localized.LocalStrings.html#Aptivestigate_Serilog_Localized_LocalStrings_Translate_
+  commentId: Overload:Aptivestigate.Serilog.Localized.LocalStrings.Translate
+  isSpec: "True"
+  fullName: Aptivestigate.Serilog.Localized.LocalStrings.Translate
+  nameWithType: LocalStrings.Translate
 - uid: Aptivestigate.Serilog.SerilogLogger
   name: SerilogLogger
   href: api/Aptivestigate.Serilog.SerilogLogger.html

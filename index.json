@@ -9,6 +9,26 @@
     "title": "Namespace Aptivestigate.CrashHandler | Aptivestigate API - Aptivi",
     "summary": "Namespace Aptivestigate.CrashHandler Classes CrashTools Application crash handling tools"
   },
+  "api/Aptivestigate.Localized.LocalStrings.html": {
+    "href": "api/Aptivestigate.Localized.LocalStrings.html",
+    "title": "Class LocalStrings | Aptivestigate API - Aptivi",
+    "summary": "Class LocalStrings Localized string tools Inheritance object LocalStrings Namespace: Aptivestigate.Localized Assembly: Aptivestigate.dll Syntax public static class LocalStrings Properties Languages Queries the languages Declaration public static Dictionary<string, string> Languages { get; } Property Value Type Description Dictionary<string, string> Localizations Queries the localizations Declaration public static string[] Localizations { get; } Property Value Type Description string[] Methods CheckCulture(string, string) Checks to see if the given culture in a specific language exists Declaration public static bool CheckCulture(string culture, string lang) Parameters Type Name Description string culture Culture ID string lang Language to process Returns Type Description bool True if exists; false otherwise Exists(string, string) Checks to see if the given string using the string ID in a specific language exists Declaration public static bool Exists(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description bool True if exists; false otherwise ListLanguagesCulture(string) Lists languages in a given culture Declaration public static string[] ListLanguagesCulture(string culture) Parameters Type Name Description string culture Culture ID Returns Type Description string[] A list of languages Translate(string, string) Translates the given string using the string ID in a specific language Declaration public static string Translate(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description string A translated string"
+  },
+  "api/Aptivestigate.Localized.html": {
+    "href": "api/Aptivestigate.Localized.html",
+    "title": "Namespace Aptivestigate.Localized | Aptivestigate API - Aptivi",
+    "summary": "Namespace Aptivestigate.Localized Classes LocalStrings Localized string tools"
+  },
+  "api/Aptivestigate.Log4Net.Localized.LocalStrings.html": {
+    "href": "api/Aptivestigate.Log4Net.Localized.LocalStrings.html",
+    "title": "Class LocalStrings | Aptivestigate API - Aptivi",
+    "summary": "Class LocalStrings Localized string tools Inheritance object LocalStrings Namespace: Aptivestigate.Log4Net.Localized Assembly: Aptivestigate.Log4Net.dll Syntax public static class LocalStrings Properties Languages Queries the languages Declaration public static Dictionary<string, string> Languages { get; } Property Value Type Description Dictionary<string, string> Localizations Queries the localizations Declaration public static string[] Localizations { get; } Property Value Type Description string[] Methods CheckCulture(string, string) Checks to see if the given culture in a specific language exists Declaration public static bool CheckCulture(string culture, string lang) Parameters Type Name Description string culture Culture ID string lang Language to process Returns Type Description bool True if exists; false otherwise Exists(string, string) Checks to see if the given string using the string ID in a specific language exists Declaration public static bool Exists(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description bool True if exists; false otherwise ListLanguagesCulture(string) Lists languages in a given culture Declaration public static string[] ListLanguagesCulture(string culture) Parameters Type Name Description string culture Culture ID Returns Type Description string[] A list of languages Translate(string, string) Translates the given string using the string ID in a specific language Declaration public static string Translate(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description string A translated string"
+  },
+  "api/Aptivestigate.Log4Net.Localized.html": {
+    "href": "api/Aptivestigate.Log4Net.Localized.html",
+    "title": "Namespace Aptivestigate.Log4Net.Localized | Aptivestigate API - Aptivi",
+    "summary": "Namespace Aptivestigate.Log4Net.Localized Classes LocalStrings Localized string tools"
+  },
   "api/Aptivestigate.Log4Net.Log4NetLogger.html": {
     "href": "api/Aptivestigate.Log4Net.Log4NetLogger.html",
     "title": "Class Log4NetLogger | Aptivestigate API - Aptivi",
@@ -34,6 +54,16 @@
     "title": "Namespace Aptivestigate.Logging | Aptivestigate API - Aptivi",
     "summary": "Namespace Aptivestigate.Logging Classes BaseLogger Abstract base logger class LogTools Logging tools"
   },
+  "api/Aptivestigate.NLog.Localized.LocalStrings.html": {
+    "href": "api/Aptivestigate.NLog.Localized.LocalStrings.html",
+    "title": "Class LocalStrings | Aptivestigate API - Aptivi",
+    "summary": "Class LocalStrings Localized string tools Inheritance object LocalStrings Namespace: Aptivestigate.NLog.Localized Assembly: Aptivestigate.NLog.dll Syntax public static class LocalStrings Properties Languages Queries the languages Declaration public static Dictionary<string, string> Languages { get; } Property Value Type Description Dictionary<string, string> Localizations Queries the localizations Declaration public static string[] Localizations { get; } Property Value Type Description string[] Methods CheckCulture(string, string) Checks to see if the given culture in a specific language exists Declaration public static bool CheckCulture(string culture, string lang) Parameters Type Name Description string culture Culture ID string lang Language to process Returns Type Description bool True if exists; false otherwise Exists(string, string) Checks to see if the given string using the string ID in a specific language exists Declaration public static bool Exists(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description bool True if exists; false otherwise ListLanguagesCulture(string) Lists languages in a given culture Declaration public static string[] ListLanguagesCulture(string culture) Parameters Type Name Description string culture Culture ID Returns Type Description string[] A list of languages Translate(string, string) Translates the given string using the string ID in a specific language Declaration public static string Translate(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description string A translated string"
+  },
+  "api/Aptivestigate.NLog.Localized.html": {
+    "href": "api/Aptivestigate.NLog.Localized.html",
+    "title": "Namespace Aptivestigate.NLog.Localized | Aptivestigate API - Aptivi",
+    "summary": "Namespace Aptivestigate.NLog.Localized Classes LocalStrings Localized string tools"
+  },
   "api/Aptivestigate.NLog.NLogLogger.html": {
     "href": "api/Aptivestigate.NLog.NLogLogger.html",
     "title": "Class NLogLogger | Aptivestigate API - Aptivi",
@@ -58,6 +88,16 @@
     "href": "api/Aptivestigate.Paths.html",
     "title": "Namespace Aptivestigate.Paths | Aptivestigate API - Aptivi",
     "summary": "Namespace Aptivestigate.Paths Classes LogPathTools Log path tools Enums LogPath Log path enumeration"
+  },
+  "api/Aptivestigate.Serilog.Localized.LocalStrings.html": {
+    "href": "api/Aptivestigate.Serilog.Localized.LocalStrings.html",
+    "title": "Class LocalStrings | Aptivestigate API - Aptivi",
+    "summary": "Class LocalStrings Localized string tools Inheritance object LocalStrings Namespace: Aptivestigate.Serilog.Localized Assembly: Aptivestigate.Serilog.dll Syntax public static class LocalStrings Properties Languages Queries the languages Declaration public static Dictionary<string, string> Languages { get; } Property Value Type Description Dictionary<string, string> Localizations Queries the localizations Declaration public static string[] Localizations { get; } Property Value Type Description string[] Methods CheckCulture(string, string) Checks to see if the given culture in a specific language exists Declaration public static bool CheckCulture(string culture, string lang) Parameters Type Name Description string culture Culture ID string lang Language to process Returns Type Description bool True if exists; false otherwise Exists(string, string) Checks to see if the given string using the string ID in a specific language exists Declaration public static bool Exists(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description bool True if exists; false otherwise ListLanguagesCulture(string) Lists languages in a given culture Declaration public static string[] ListLanguagesCulture(string culture) Parameters Type Name Description string culture Culture ID Returns Type Description string[] A list of languages Translate(string, string) Translates the given string using the string ID in a specific language Declaration public static string Translate(string id, string lang) Parameters Type Name Description string id String ID that represents a localization string lang Language to translate to Returns Type Description string A translated string"
+  },
+  "api/Aptivestigate.Serilog.Localized.html": {
+    "href": "api/Aptivestigate.Serilog.Localized.html",
+    "title": "Namespace Aptivestigate.Serilog.Localized | Aptivestigate API - Aptivi",
+    "summary": "Namespace Aptivestigate.Serilog.Localized Classes LocalStrings Localized string tools"
   },
   "api/Aptivestigate.Serilog.SerilogLogger.html": {
     "href": "api/Aptivestigate.Serilog.SerilogLogger.html",
