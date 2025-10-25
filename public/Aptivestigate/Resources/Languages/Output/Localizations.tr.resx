@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+        <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="metadata">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                </xsd:sequence>
+                <xsd:attribute name="name" use="required" type="xsd:string" />
+                <xsd:attribute name="type" type="xsd:string" />
+                <xsd:attribute name="mimetype" type="xsd:string" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="assembly">
+            <xsd:complexType>
+                <xsd:attribute name="alias" type="xsd:string" />
+                <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="data">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resheader">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+            </xsd:element>
+        </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+    <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED" xml:space="preserve">
+    <value>Çökme işleyicisi zaten yüklü.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH" xml:space="preserve">
+    <value>ÖLÜMCÜL ÇÖKÜŞ TESPİT EDİLDİ</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC" xml:space="preserve">
+    <value>Rahatsızlığınız için özür dileriz, ancak bu program devam edemiyor.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT" xml:space="preserve">
+    <value>ÖLÜMCÜL ÇÖKÜŞ TESPİT EDİLDİ (ÜÇLÜ HATA)</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE" xml:space="preserve">
+    <value>İlk şans</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE" xml:space="preserve">
+    <value>İkinci şans</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH" xml:space="preserve">
+    <value>ÇÖKÜŞ TESPİT EDİLDİ</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH_DESC" xml:space="preserve">
+    <value>Uygulamada kapatılması gereken bir sorun tespit edildi. Çökme dökümü yazılıyor...</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER" xml:space="preserve">
+    <value>Çökme raporu</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC" xml:space="preserve">
+    <value>Aşağıda, uygulama talep ettiğiniz işlemi gerçekleştirirken uygulamada ne olduğuyla ilgili çökme raporu bulunmaktadır.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID" xml:space="preserve">
+    <value>Çökme Kimliği:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME" xml:space="preserve">
+    <value>Olay zamanı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER" xml:space="preserve">
+    <value>İstisna Bilgileri</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING" xml:space="preserve">
+    <value>Sonlandırılıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT" xml:space="preserve">
+    <value>Genel hata. Bu ciddi bir soruna işaret ediyor olabilir.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER" xml:space="preserve">
+    <value>İstisna Analizi</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC" xml:space="preserve">
+    <value>Aşağıda nedenini bulmanıza yardımcı olabilir:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION" xml:space="preserve">
+    <value>Analiz edilecek bir istisna yok.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT" xml:space="preserve">
+    <value>Çerçeve sayısı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM" xml:space="preserve">
+    <value>Çerçeve numarası:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD" xml:space="preserve">
+    <value>Yöntem:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD" xml:space="preserve">
+    <value>Statik yöntem:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE" xml:space="preserve">
+    <value>Yöntem türü:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE" xml:space="preserve">
+    <value>Bildirim türü:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE" xml:space="preserve">
+    <value>Yansıyan tür:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES" xml:space="preserve">
+    <value>Öznitelikler:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS" xml:space="preserve">
+    <value>Uygulama işaretleri:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS" xml:space="preserve">
+    <value>Yöntem adresi:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME" xml:space="preserve">
+    <value>Parametre türü adı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE" xml:space="preserve">
+    <value>Parametre tam türü:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME" xml:space="preserve">
+    <value>Parametre adı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS" xml:space="preserve">
+    <value>Konum (0&apos;dan):</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT" xml:space="preserve">
+    <value>Varsayılan değeri içerir:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE" xml:space="preserve">
+    <value>Varsayılan değer:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET" xml:space="preserve">
+    <value>IL ofseti:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE" xml:space="preserve">
+    <value>Yerel görüntü tabanı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP" xml:space="preserve">
+    <value>Yerel görüntü IP&apos;si:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET" xml:space="preserve">
+    <value>Yerel görüntü ofseti:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME" xml:space="preserve">
+    <value>Dosya adı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE" xml:space="preserve">
+    <value>Dosya satır numarası:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN" xml:space="preserve">
+    <value>Dosya sütun numarası:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER" xml:space="preserve">
+    <value>Çalışma zamanı bilgileri</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS" xml:space="preserve">
+    <value>İşletim sistemi:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC" xml:space="preserve">
+    <value>İşletim sistemi açıklaması:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH" xml:space="preserve">
+    <value>İşletim sistemi mimarisi:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH" xml:space="preserve">
+    <value>İşlem mimarisi:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME" xml:space="preserve">
+    <value>.NET çalışma zamanı:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX" xml:space="preserve">
+    <value>Dotnetfx&apos;te çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID" xml:space="preserve">
+    <value>Genel çalışma zamanı kimliği:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID" xml:space="preserve">
+    <value>Genel çalışma zamanı kimliği:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER" xml:space="preserve">
+    <value>İşlem bilgileri</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID" xml:space="preserve">
+    <value>N-KS&apos;den çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO" xml:space="preserve">
+    <value>Mono&apos;dan çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN" xml:space="preserve">
+    <value>Screen&apos;den çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX" xml:space="preserve">
+    <value>TMUX&apos;tan çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL" xml:space="preserve">
+    <value>WSL&apos;de çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL" xml:space="preserve">
+    <value>Şu anda çalışıyor MUSL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID" xml:space="preserve">
+    <value>Android&apos;de çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI" xml:space="preserve">
+    <value>GUI&apos;de çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG" xml:space="preserve">
+    <value>X.Org&apos;da çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND" xml:space="preserve">
+    <value>Wayland&apos;da çalışıyor:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE" xml:space="preserve">
+    <value>Terminal türü:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU" xml:space="preserve">
+    <value>Terminal emülatörü:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH" xml:space="preserve">
+    <value>İKİNCİ ÇÖKME TESPİT EDİLDİ</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC" xml:space="preserve">
+    <value>Çökme dökümünü yazarken ikinci bir çökme bulduk.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER" xml:space="preserve">
+    <value>Ölümcül çökme raporu</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC" xml:space="preserve">
+    <value>Aşağıda, uygulamada
+it hatayı işlerken ne olduğuyla ilgili ölümcül çökme raporu bulunmaktadır.</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND" xml:space="preserve">
+    <value>Günlük yolu bulunamadı</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED" xml:space="preserve">
+    <value>Derleme belirtilmedi</value>
+  </data>
+
+</root>

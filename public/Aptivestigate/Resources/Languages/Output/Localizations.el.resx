@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+        <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="metadata">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                </xsd:sequence>
+                <xsd:attribute name="name" use="required" type="xsd:string" />
+                <xsd:attribute name="type" type="xsd:string" />
+                <xsd:attribute name="mimetype" type="xsd:string" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="assembly">
+            <xsd:complexType>
+                <xsd:attribute name="alias" type="xsd:string" />
+                <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="data">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resheader">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+            </xsd:element>
+        </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+    <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED" xml:space="preserve">
+    <value>Ο χειριστής σφαλμάτων είναι ήδη εγκατεστημένος.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH" xml:space="preserve">
+    <value>ΕΝΤΟΠΙΣΘΗΚΕ ΜΟΙΡΑΣΤΙΚΟ ΣΦΑΛΜΑ</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC" xml:space="preserve">
+    <value>Λυπούμαστε για την ταλαιπωρία σας, αλλά αυτό το πρόγραμμα δεν μπορεί να συνεχιστεί.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT" xml:space="preserve">
+    <value>ΕΝΤΟΠΙΣΘΗΚΕ ΜΟΙΡΑΣΤΙΚΟ ΣΦΑΛΜΑ (ΤΡΙΠΛΟ ΣΦΑΛΜΑ)</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE" xml:space="preserve">
+    <value>Πρώτη ευκαιρία</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE" xml:space="preserve">
+    <value>Δεύτερη ευκαιρία</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH" xml:space="preserve">
+    <value>ΕΝΤΟΠΙΣΘΗΚΕ ΣΦΑΛΜΑ</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH_DESC" xml:space="preserve">
+    <value>Εντοπίστηκε πρόβλημα στην εφαρμογή που πρέπει να τερματιστεί. Εγγραφή αρχείου σφαλμάτων...</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER" xml:space="preserve">
+    <value>Αναφορά σφάλματος</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC" xml:space="preserve">
+    <value>Παρακάτω είναι η αναφορά σφάλματος σχετικά με το τι συνέβη στην εφαρμογή ενώ εκτελούσε την ζητούμενη λειτουργία.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID" xml:space="preserve">
+    <value>Αναγνωριστικό σφάλματος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME" xml:space="preserve">
+    <value>Ώρα συμβάντος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER" xml:space="preserve">
+    <value>Πληροφορίες εξαίρεσης</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING" xml:space="preserve">
+    <value>Τερματισμός:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT" xml:space="preserve">
+    <value>Γενικό σφάλμα. Αυτό μπορεί να υποδεικνύει ένα σοβαρό πρόβλημα.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER" xml:space="preserve">
+    <value>Ανάλυση εξαιρέσεων</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC" xml:space="preserve">
+    <value>Παρακάτω μπορεί να σας βοηθήσει να μάθετε γιατί:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION" xml:space="preserve">
+    <value>Δεν υπάρχει εξαίρεση για ανάλυση.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT" xml:space="preserve">
+    <value>Πλήθος καρέ:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM" xml:space="preserve">
+    <value>Αριθμός καρέ:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD" xml:space="preserve">
+    <value>Μέθοδος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD" xml:space="preserve">
+    <value>Στατική μέθοδος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE" xml:space="preserve">
+    <value>Τύπος μεθόδου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE" xml:space="preserve">
+    <value>Δηλούμενος τύπος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE" xml:space="preserve">
+    <value>Τύπος που αντανακλάται:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES" xml:space="preserve">
+    <value>Χαρακτηριστικά:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS" xml:space="preserve">
+    <value>Σημαίες υλοποίησης:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS" xml:space="preserve">
+    <value>Διεύθυνση μεθόδου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME" xml:space="preserve">
+    <value>Όνομα τύπου παραμέτρου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE" xml:space="preserve">
+    <value>Πλήρης τύπος παραμέτρου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME" xml:space="preserve">
+    <value>Όνομα παραμέτρου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS" xml:space="preserve">
+    <value>Θέση (από 0):</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT" xml:space="preserve">
+    <value>Περιέχει προεπιλεγμένη τιμή:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE" xml:space="preserve">
+    <value>Προεπιλεγμένη τιμή:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET" xml:space="preserve">
+    <value>Μετατόπιση IL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE" xml:space="preserve">
+    <value>Βάση εγγενούς εικόνας:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP" xml:space="preserve">
+    <value>IP εγγενούς εικόνας:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET" xml:space="preserve">
+    <value>Μετατόπιση εγγενούς εικόνας:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME" xml:space="preserve">
+    <value>Όνομα αρχείου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE" xml:space="preserve">
+    <value>Αριθμός γραμμής αρχείου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN" xml:space="preserve">
+    <value>Αριθμός στήλης αρχείου:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER" xml:space="preserve">
+    <value>Πληροφορίες χρόνου εκτέλεσης</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS" xml:space="preserve">
+    <value>Λειτουργικό σύστημα:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC" xml:space="preserve">
+    <value>Περιγραφή λειτουργικού συστήματος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH" xml:space="preserve">
+    <value>Αρχιτεκτονική λειτουργικού συστήματος:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH" xml:space="preserve">
+    <value>Αρχιτεκτονική διεργασίας:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME" xml:space="preserve">
+    <value>Χρόνος εκτέλεσης .NET:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX" xml:space="preserve">
+    <value>Εκτέλεση σε dotnetfx:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID" xml:space="preserve">
+    <value>Γενικό αναγνωριστικό χρόνου εκτέλεσης:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID" xml:space="preserve">
+    <value>Γενικό αναγνωριστικό χρόνου εκτέλεσης:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER" xml:space="preserve">
+    <value>Πληροφορίες λειτουργίας</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID" xml:space="preserve">
+    <value>Εκτέλεση από N-KS:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO" xml:space="preserve">
+    <value>Εκτέλεση από Mono:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN" xml:space="preserve">
+    <value>Εκτέλεση από οθόνη:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX" xml:space="preserve">
+    <value>Εκτέλεση από TMUX:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL" xml:space="preserve">
+    <value>Εκτέλεση σε WSL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL" xml:space="preserve">
+    <value>Εκτέλεση σε MUSL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID" xml:space="preserve">
+    <value>Εκτέλεση σε Android:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI" xml:space="preserve">
+    <value>Εκτέλεση σε GUI:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG" xml:space="preserve">
+    <value>Εκτέλεση σε X.Org:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND" xml:space="preserve">
+    <value>Εκτελείται στο Wayland:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE" xml:space="preserve">
+    <value>Τύπος τερματικού:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU" xml:space="preserve">
+    <value>Εξομοιωτής τερματικού:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH" xml:space="preserve">
+    <value>ΕΝΤΟΠΙΣΤΗΚΕ ΔΕΥΤΕΡΗ ΣΦΑΛΜΑ</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC" xml:space="preserve">
+    <value>Κατά τη σύνταξη crash dump, εντοπίσαμε μια δεύτερη διακοπή λειτουργίας.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER" xml:space="preserve">
+    <value>Αναφορά μοιραίου σφάλματος</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC" xml:space="preserve">
+    <value>Παρακάτω είναι η αναφορά μοιραίου σφάλματος σχετικά με το τι συνέβη στην εφαρμογή ενώ
+it χειριζόταν το σφάλμα.</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND" xml:space="preserve">
+    <value>Η διαδρομή καταγραφής δεν βρέθηκε</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED" xml:space="preserve">
+    <value>Η συναρμολόγηση δεν έχει καθοριστεί</value>
+  </data>
+
+</root>

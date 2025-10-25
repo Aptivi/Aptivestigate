@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+        <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="metadata">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                </xsd:sequence>
+                <xsd:attribute name="name" use="required" type="xsd:string" />
+                <xsd:attribute name="type" type="xsd:string" />
+                <xsd:attribute name="mimetype" type="xsd:string" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="assembly">
+            <xsd:complexType>
+                <xsd:attribute name="alias" type="xsd:string" />
+                <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="data">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resheader">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+            </xsd:element>
+        </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+    <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED" xml:space="preserve">
+    <value>El controlador de fallos ya está instalado.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH" xml:space="preserve">
+    <value>FALLO GRAVE DETECTADO</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC" xml:space="preserve">
+    <value>Disculpe las molestias, pero este programa no puede continuar.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT" xml:space="preserve">
+    <value>FALLO GRAVE DETECTADO (TRIPLE FALLO)</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE" xml:space="preserve">
+    <value>Primera oportunidad</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE" xml:space="preserve">
+    <value>Segunda oportunidad</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH" xml:space="preserve">
+    <value>FALLO DETECTADO</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH_DESC" xml:space="preserve">
+    <value>Se ha detectado un problema en la aplicación que debe cerrarse. Escribiendo volcado de memoria...</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER" xml:space="preserve">
+    <value>Informe de fallo</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC" xml:space="preserve">
+    <value>A continuación, se muestra el informe de fallos sobre lo que ocurrió en la aplicación mientras realizaba la operación solicitada.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID" xml:space="preserve">
+    <value>ID del fallo:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME" xml:space="preserve">
+    <value>Hora del incidente:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER" xml:space="preserve">
+    <value>Información de la excepción</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING" xml:space="preserve">
+    <value>Finalización:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT" xml:space="preserve">
+    <value>Fallo general. Esto puede indicar un problema grave.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER" xml:space="preserve">
+    <value>Análisis de excepciones</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC" xml:space="preserve">
+    <value>A continuación, puede ayudarle a averiguar el motivo:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION" xml:space="preserve">
+    <value>No hay ninguna excepción que analizar.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT" xml:space="preserve">
+    <value>Recuento de fotogramas:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM" xml:space="preserve">
+    <value>Número de fotogramas:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD" xml:space="preserve">
+    <value>Método:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD" xml:space="preserve">
+    <value>Método estático:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE" xml:space="preserve">
+    <value>Tipo de método:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE" xml:space="preserve">
+    <value>Tipo de declaración:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE" xml:space="preserve">
+    <value>Tipo reflejado:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES" xml:space="preserve">
+    <value>Atributos:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS" xml:space="preserve">
+    <value>Indicadores de implementación:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS" xml:space="preserve">
+    <value>Dirección del método:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME" xml:space="preserve">
+    <value>Nombre del tipo de parámetro:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE" xml:space="preserve">
+    <value>Tipo completo del parámetro:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME" xml:space="preserve">
+    <value>Nombre del parámetro:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS" xml:space="preserve">
+    <value>Posición (desde 0):</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT" xml:space="preserve">
+    <value>Contiene el valor predeterminado:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE" xml:space="preserve">
+    <value>Valor predeterminado:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET" xml:space="preserve">
+    <value>Desplazamiento de IL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE" xml:space="preserve">
+    <value>Base de la imagen nativa:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP" xml:space="preserve">
+    <value>IP de la imagen nativa:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET" xml:space="preserve">
+    <value>Desplazamiento de la imagen nativa:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME" xml:space="preserve">
+    <value>Nombre del archivo:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE" xml:space="preserve">
+    <value>Número de línea del archivo:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN" xml:space="preserve">
+    <value>Número de columna del archivo:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER" xml:space="preserve">
+    <value>Información del tiempo de ejecución</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS" xml:space="preserve">
+    <value>Sistema operativo:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC" xml:space="preserve">
+    <value>Descripción del SO:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH" xml:space="preserve">
+    <value>Arquitectura del SO:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH" xml:space="preserve">
+    <value>Arquitectura del proceso:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME" xml:space="preserve">
+    <value>Tiempo de ejecución .NET:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX" xml:space="preserve">
+    <value>Ejecutando en dotnetfx:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID" xml:space="preserve">
+    <value>ID genérico del tiempo de ejecución:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID" xml:space="preserve">
+    <value>ID general del tiempo de ejecución:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER" xml:space="preserve">
+    <value>Información de la operación</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID" xml:space="preserve">
+    <value>Ejecutando desde N-KS:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO" xml:space="preserve">
+    <value>Ejecutando desde Mono:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN" xml:space="preserve">
+    <value>Ejecutando desde Screen:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX" xml:space="preserve">
+    <value>Ejecutando desde TMUX:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL" xml:space="preserve">
+    <value>Ejecutando en WSL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL" xml:space="preserve">
+    <value>Ejecutando en MUSL:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID" xml:space="preserve">
+    <value>Ejecutando En Android:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI" xml:space="preserve">
+    <value>Ejecutando en GUI:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG" xml:space="preserve">
+    <value>Ejecutando en X.Org:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND" xml:space="preserve">
+    <value>Ejecutando en Wayland:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE" xml:space="preserve">
+    <value>Tipo de terminal:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU" xml:space="preserve">
+    <value>Emulador de terminal:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH" xml:space="preserve">
+    <value>SEGUNDO FALLO DETECTADO</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC" xml:space="preserve">
+    <value>Al escribir el volcado de memoria, encontramos un segundo fallo.</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER" xml:space="preserve">
+    <value>Informe de fallo fatal</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC" xml:space="preserve">
+    <value>A continuación, se muestra el informe de fallo fatal sobre lo que ocurrió en la aplicación mientras gestionaba el error.</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND" xml:space="preserve">
+    <value>No se encuentra la ruta del registro.</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED" xml:space="preserve">
+    <value>No se especifica el ensamblado.</value>
+  </data>
+
+</root>

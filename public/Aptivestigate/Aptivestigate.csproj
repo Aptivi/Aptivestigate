@@ -15,9 +15,6 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageIcon>OfficialAppIcon-Aptivestigate-512.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    
-    <!-- For cross platform and .NET 8.0+ support -->
-    <AptLocDisableInvalidCultureWarnings>true</AptLocDisableInvalidCultureWarnings>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,13 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LocaleStation" Version="1.3.2" />
-    <PackageReference Include="LocaleStation.Tools" Version="1.3.2" />
-    <PackageReference Include="SpecProbe.Software" Version="3.6.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <AdditionalFiles Include="Resources\Languages\*.json" AptLocIsLanguagePath="true" />
+    <PackageReference Include="SpecProbe.Software" Version="3.6.1" />
   </ItemGroup>
 
 </Project>

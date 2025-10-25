@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- 
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+        <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="metadata">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                </xsd:sequence>
+                <xsd:attribute name="name" use="required" type="xsd:string" />
+                <xsd:attribute name="type" type="xsd:string" />
+                <xsd:attribute name="mimetype" type="xsd:string" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="assembly">
+            <xsd:complexType>
+                <xsd:attribute name="alias" type="xsd:string" />
+                <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="data">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resheader">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+            </xsd:element>
+        </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+    <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="APTIVESTIGATE_CRASHHANDLER_EXCEPTION_ALREADYINSTALLED" xml:space="preserve">
+    <value>クラッシュハンドラは既にインストールされています。</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH" xml:space="preserve">
+    <value>致命的なクラッシュが検出されました</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_DESC" xml:space="preserve">
+    <value>ご不便をおかけして申し訳ございませんが、このプログラムは続行できません。</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_TRIPLEFAULT" xml:space="preserve">
+    <value>致命的なクラッシュが検出されました（トリプルフォールト）</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_FIRSTCHANCE" xml:space="preserve">
+    <value>最初のチャンス</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_FATALCRASH_EVENT_SECONDCHANCE" xml:space="preserve">
+    <value>2番目のチャンス</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH" xml:space="preserve">
+    <value>クラッシュが検出されました</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASH_DESC" xml:space="preserve">
+    <value>アプリケーションで問題が検出されました。シャットダウンする必要があります。クラッシュダンプを書き込んでいます...</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_HEADER" xml:space="preserve">
+    <value>クラッシュレポート</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_DESC" xml:space="preserve">
+    <value>以下は、要求された操作の実行中にアプリケーションで発生したクラッシュレポートです。</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHID" xml:space="preserve">
+    <value>クラッシュID：</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_CRASHTIME" xml:space="preserve">
+    <value>発生時刻：</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_HEADER" xml:space="preserve">
+    <value>例外情報</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_TERMINATING" xml:space="preserve">
+    <value>終了中：</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCINFO_GENERALFAULT" xml:space="preserve">
+    <value>一般的な障害です。深刻な問題を示している可能性があります。</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_HEADER" xml:space="preserve">
+    <value>例外分析</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_DESC" xml:space="preserve">
+    <value>以下は、原因の特定に役立つ可能性があります：</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_NOEXCEPTION" xml:space="preserve">
+    <value>分析する例外はありません。</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAMECOUNT" xml:space="preserve">
+    <value>フレーム数:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_NUM" xml:space="preserve">
+    <value>フレーム番号:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHOD" xml:space="preserve">
+    <value>メソッド:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_STATICMETHOD" xml:space="preserve">
+    <value>静的メソッド:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODTYPE" xml:space="preserve">
+    <value>メソッド型:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODDECLARINGTYPE" xml:space="preserve">
+    <value>宣言型:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODREFLECTEDTYPE" xml:space="preserve">
+    <value>反映型:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODATTRIBUTES" xml:space="preserve">
+    <value>属性:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODFLAGS" xml:space="preserve">
+    <value>実装フラグ:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODADDRESS" xml:space="preserve">
+    <value>メソッドアドレス:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_TYPENAME" xml:space="preserve">
+    <value>パラメータ型名:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_FULLTYPE" xml:space="preserve">
+    <value>パラメータの完全型:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_NAME" xml:space="preserve">
+    <value>パラメータ名:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_POS" xml:space="preserve">
+    <value>位置（0から）:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_HASDEFAULT" xml:space="preserve">
+    <value>デフォルト値を含む:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODPARAM_DEFAULTVALUE" xml:space="preserve">
+    <value>デフォルト値:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODILOFFSET" xml:space="preserve">
+    <value>ILオフセット:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEBASE" xml:space="preserve">
+    <value>ネイティブイメージベース:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEIP" xml:space="preserve">
+    <value>ネイティブイメージIP:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODNATIVEIMAGEOFFSET" xml:space="preserve">
+    <value>ネイティブイメージオフセット:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCENAME" xml:space="preserve">
+    <value>ファイル名:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCELINE" xml:space="preserve">
+    <value>ファイル行番号:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_EXCANALYSIS_FRAME_METHODSOURCECOLUMN" xml:space="preserve">
+    <value>ファイル列番号:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_HEADER" xml:space="preserve">
+    <value>ランタイム情報</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OS" xml:space="preserve">
+    <value>オペレーティングシステム:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSDESC" xml:space="preserve">
+    <value>OSの説明:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_OSARCH" xml:space="preserve">
+    <value>OSアーキテクチャ:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_PROCARCH" xml:space="preserve">
+    <value>プロセスアーキテクチャ:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETRUNTIME" xml:space="preserve">
+    <value>.NETランタイム:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_DOTNETFX" xml:space="preserve">
+    <value>dotnetfxで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERICRID" xml:space="preserve">
+    <value>汎用ランタイムID:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_RUNTIMEINFO_GENERALRID" xml:space="preserve">
+    <value>汎用ランタイムID:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_HEADER" xml:space="preserve">
+    <value>操作情報</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMNITROCID" xml:space="preserve">
+    <value>N-KSで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMMONO" xml:space="preserve">
+    <value>Monoで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMSCREEN" xml:space="preserve">
+    <value>Screenで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGFROMTMUX" xml:space="preserve">
+    <value>TMUXで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWSL" xml:space="preserve">
+    <value>WSLで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONMUSL" xml:space="preserve">
+    <value>MUSLで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONANDROID" xml:space="preserve">
+    <value>Androidで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONGUI" xml:space="preserve">
+    <value>GUIで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONXORG" xml:space="preserve">
+    <value>X.Orgで実行:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_RUNNINGONWAYLAND" xml:space="preserve">
+    <value>Wayland:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALTYPE" xml:space="preserve">
+    <value>端末の種類:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_CRASHDUMP_OPERINFO_TERMINALEMU" xml:space="preserve">
+    <value>端末エミュレータ:</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH" xml:space="preserve">
+    <value>2回目のクラッシュを検出しました</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASH_DESC" xml:space="preserve">
+    <value>クラッシュダンプの書き込み中に、2回目のクラッシュを検出しました。</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_HEADER" xml:space="preserve">
+    <value>致命的なクラッシュレポート</value>
+  </data>
+  <data name="APTIVESTIGATE_CRASHHANDLER_SECONDCRASHDUMP_DESC" xml:space="preserve">
+    <value>以下は、エラー処理中にアプリケーションで発生した致命的なクラッシュレポートです。</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_PATHNOTFOUND" xml:space="preserve">
+    <value>ログパスが見つかりません</value>
+  </data>
+  <data name="APTIVESTIGATE_LOGPATH_EXCEPTION_ASMNEEDED" xml:space="preserve">
+    <value>アセンブリが指定されていません</value>
+  </data>
+
+</root>
