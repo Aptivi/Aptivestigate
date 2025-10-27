@@ -23,7 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="SpecProbe.Software" Version="3.6.1" />
+    <PackageReference Include="ResourceLab" Version="1.0.0" />
+    <PackageReference Include="SpecProbe.Software" Version="3.6.2.1" />
   </ItemGroup>
 
 </Project>
