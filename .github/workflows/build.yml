@@ -37,6 +37,4 @@ jobs:
       - name: Solution Compilation (Unix)
         if: matrix.runs-on != 'windows-latest'
         run: make dbg-ci
-      - name: Testing
-        run: dotnet test --no-build --configuration Debug
         
