@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/Assets/">
+    <File Path="CHANGES" />
+    <File Path="CHANGES.TITLE" />
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Folder Name="/Private/">
+    <Project Path="private/Aptivestigate.Demo/Aptivestigate.Demo.csproj" />
+    <Project Path="private/BuildTargets/BuildTargets.csproj" />
+  </Folder>
+  <Folder Name="/Public/">
+    <Project Path="public/Aptivestigate/Aptivestigate.csproj" />
+  </Folder>
+  <Folder Name="/Public/Loggers/">
+    <Project Path="public/Aptivestigate.Log4Net/Aptivestigate.Log4Net.csproj" />
+    <Project Path="public/Aptivestigate.Microsoft/Aptivestigate.Microsoft.csproj" />
+    <Project Path="public/Aptivestigate.NLog/Aptivestigate.NLog.csproj" />
+    <Project Path="public/Aptivestigate.Serilog/Aptivestigate.Serilog.csproj" />
+    <Project Path="public/Aptivestigate.ZLogger/Aptivestigate.ZLogger.csproj" />
+  </Folder>
+</Solution>
