@@ -21,10 +21,12 @@
     
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400;500;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
-      <header class="apt-head">
+      <header class="apt-head translucency-rule-black">
 
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
@@ -49,14 +51,6 @@
             </div>
           </div>
         </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
 
@@ -92,8 +86,8 @@
     <div class="level1"><a class="xref" href="Aptivestigate.Logging.BaseLogger.html">BaseLogger</a></div>
     <div class="level2"><span class="xref">SerilogLogger</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Aptivestigate.html">Aptivestigate</a>.<a class="xref" href="Aptivestigate.Serilog.html">Serilog</a></h6>
-  <h6><strong>Assembly</strong>: Aptivestigate.Serilog.dll</h6>
+  <h6>Namespace: <a class="xref" href="Aptivestigate.html">Aptivestigate</a>.<a class="xref" href="Aptivestigate.Serilog.html">Serilog</a></h6>
+  <h6>Assembly: Aptivestigate.Serilog.dll</h6>
   <h5 id="Aptivestigate_Serilog_SerilogLogger_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class SerilogLogger : BaseLogger</code></pre>
@@ -117,7 +111,7 @@
     <pre><code class="lang-csharp hljs">public SerilogLogger(LoggerConfiguration? configurator = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -153,7 +147,7 @@
     <pre><code class="lang-csharp hljs">public override void Debug(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -201,7 +195,7 @@
     <pre><code class="lang-csharp hljs">public override void Debug(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -243,7 +237,7 @@
     <pre><code class="lang-csharp hljs">public override void Error(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -291,7 +285,7 @@
     <pre><code class="lang-csharp hljs">public override void Error(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -333,7 +327,7 @@
     <pre><code class="lang-csharp hljs">public override void Fatal(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -381,7 +375,7 @@
     <pre><code class="lang-csharp hljs">public override void Fatal(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -423,7 +417,7 @@
     <pre><code class="lang-csharp hljs">public override void Info(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -471,7 +465,7 @@
     <pre><code class="lang-csharp hljs">public override void Info(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -513,7 +507,7 @@
     <pre><code class="lang-csharp hljs">public override void Warning(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -561,7 +555,7 @@
     <pre><code class="lang-csharp hljs">public override void Warning(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -610,19 +604,6 @@
           </div>
         </div>
       </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
     </div>
 
     <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
