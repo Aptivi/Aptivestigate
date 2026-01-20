@@ -21,10 +21,12 @@
     
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400;500;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
-      <header class="apt-head">
+      <header class="apt-head translucency-rule-black">
 
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
@@ -49,14 +51,6 @@
             </div>
           </div>
         </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
       </header>
       <div class="container body-content">
 
@@ -92,8 +86,8 @@
     <div class="level1"><a class="xref" href="Aptivestigate.Logging.BaseLogger.html">BaseLogger</a></div>
     <div class="level2"><span class="xref">NLogLogger</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Aptivestigate.html">Aptivestigate</a>.<a class="xref" href="Aptivestigate.NLog.html">NLog</a></h6>
-  <h6><strong>Assembly</strong>: Aptivestigate.NLog.dll</h6>
+  <h6>Namespace: <a class="xref" href="Aptivestigate.html">Aptivestigate</a>.<a class="xref" href="Aptivestigate.NLog.html">NLog</a></h6>
+  <h6>Assembly: Aptivestigate.NLog.dll</h6>
   <h5 id="Aptivestigate_NLog_NLogLogger_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class NLogLogger : BaseLogger</code></pre>
@@ -105,7 +99,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger__ctor_System_String_NLog_Config_LoggingConfiguration_.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.%23ctor(System.String%2CNLog.Config.LoggingConfiguration)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L156">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L206">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger__ctor_" data-uid="Aptivestigate.NLog.NLogLogger.#ctor*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger__ctor_System_String_NLog_Config_LoggingConfiguration_" data-uid="Aptivestigate.NLog.NLogLogger.#ctor(System.String,NLog.Config.LoggingConfiguration)">NLogLogger(string, LoggingConfiguration?)</h4>
@@ -117,7 +111,7 @@
     <pre><code class="lang-csharp hljs">public NLogLogger(string name, LoggingConfiguration? configurator = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -147,7 +141,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Debug_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Debug(System.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L53">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L58">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Debug_" data-uid="Aptivestigate.NLog.NLogLogger.Debug*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Debug_System_Exception_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Debug(System.Exception,System.String,System.Object[])">Debug(Exception, string, params object?[]?)</h4>
@@ -159,7 +153,7 @@
     <pre><code class="lang-csharp hljs">public override void Debug(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -207,7 +201,7 @@
     <pre><code class="lang-csharp hljs">public override void Debug(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -237,7 +231,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Error_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Error(System.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L76">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L91">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Error_" data-uid="Aptivestigate.NLog.NLogLogger.Error*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Error_System_Exception_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Error(System.Exception,System.String,System.Object[])">Error(Exception, string, params object?[]?)</h4>
@@ -249,7 +243,7 @@
     <pre><code class="lang-csharp hljs">public override void Error(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -285,7 +279,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Error_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Error(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L64">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L74">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Error_" data-uid="Aptivestigate.NLog.NLogLogger.Error*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Error_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Error(System.String,System.Object[])">Error(string, params object?[]?)</h4>
@@ -297,7 +291,7 @@
     <pre><code class="lang-csharp hljs">public override void Error(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -327,7 +321,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Fatal_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Fatal(System.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L99">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L124">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Fatal_" data-uid="Aptivestigate.NLog.NLogLogger.Fatal*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Fatal_System_Exception_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Fatal(System.Exception,System.String,System.Object[])">Fatal(Exception, string, params object?[]?)</h4>
@@ -339,7 +333,7 @@
     <pre><code class="lang-csharp hljs">public override void Fatal(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -375,7 +369,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Fatal_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Fatal(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L87">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L107">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Fatal_" data-uid="Aptivestigate.NLog.NLogLogger.Fatal*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Fatal_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Fatal(System.String,System.Object[])">Fatal(string, params object?[]?)</h4>
@@ -387,7 +381,7 @@
     <pre><code class="lang-csharp hljs">public override void Fatal(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -417,7 +411,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Info_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Info(System.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L122">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L157">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Info_" data-uid="Aptivestigate.NLog.NLogLogger.Info*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Info_System_Exception_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Info(System.Exception,System.String,System.Object[])">Info(Exception, string, params object?[]?)</h4>
@@ -429,7 +423,7 @@
     <pre><code class="lang-csharp hljs">public override void Info(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -465,7 +459,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Info_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Info(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L110">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L140">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Info_" data-uid="Aptivestigate.NLog.NLogLogger.Info*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Info_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Info(System.String,System.Object[])">Info(string, params object?[]?)</h4>
@@ -477,7 +471,7 @@
     <pre><code class="lang-csharp hljs">public override void Info(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -507,7 +501,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Warning_System_Exception_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Warning(System.Exception%2CSystem.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L145">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L190">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Warning_" data-uid="Aptivestigate.NLog.NLogLogger.Warning*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Warning_System_Exception_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Warning(System.Exception,System.String,System.Object[])">Warning(Exception, string, params object?[]?)</h4>
@@ -519,7 +513,7 @@
     <pre><code class="lang-csharp hljs">public override void Warning(Exception ex, string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -555,7 +549,7 @@
     <a href="https://github.com/Aptivi/Aptivestigate/new/main/apiSpec/new?filename=Aptivestigate_NLog_NLogLogger_Warning_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Aptivestigate.NLog.NLogLogger.Warning(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L133">View Source</a>
+    <a href="https://github.com/Aptivi/Aptivestigate/blob/main/public/Aptivestigate.NLog/NLogLogger.cs/#L173">View Source</a>
   </span>
   <a id="Aptivestigate_NLog_NLogLogger_Warning_" data-uid="Aptivestigate.NLog.NLogLogger.Warning*"></a>
   <h4 id="Aptivestigate_NLog_NLogLogger_Warning_System_String_System_Object___" data-uid="Aptivestigate.NLog.NLogLogger.Warning(System.String,System.Object[])">Warning(string, params object?[]?)</h4>
@@ -567,7 +561,7 @@
     <pre><code class="lang-csharp hljs">public override void Warning(string message, params object?[]? args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped">
+  <table class="table table-bordered">
     <thead>
       <tr>
         <th>Type</th>
@@ -616,19 +610,6 @@
           </div>
         </div>
       </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
     </div>
 
     <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
