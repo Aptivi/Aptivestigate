@@ -27,7 +27,7 @@ using Aptivestigate.Serilog;
 using Aptivestigate.ZLogger;
 using System;
 using System.Linq;
-using Terminaux.Colors.Data;
+using Colorimetry.Data;
 using Terminaux.Writer.ConsoleWriters;
 
 namespace Aptivestigate.Demo
