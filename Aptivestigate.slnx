@@ -6,7 +6,7 @@
   </Folder>
   <Folder Name="/Private/">
     <Project Path="private/Aptivestigate.Demo/Aptivestigate.Demo.csproj" />
-    <Project Path="private/BuildTargets/BuildTargets.csproj" />
+    <Project Path="private/Dtp/Dtp.csproj" />
   </Folder>
   <Folder Name="/Public/">
     <Project Path="public/Aptivestigate/Aptivestigate.csproj" />
